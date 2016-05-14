@@ -1,0 +1,38 @@
+concept,concept_type,name
+other_renewables_twh,measure,Other renewables -TWh
+gas_proved_reserves_history,measure,Gas - Proved reserves history 
+electricity_generation,measure,Electricity Generation 
+coal_consumption_mtoe,measure,Coal Consumption -  Mtoe
+geo_biomass_other_twh,measure,Geo Biomass Other - TWh
+gas_production_bcf,measure,Gas Production – Bcf
+oil_production_tonnes,measure,Oil Production – Tonnes
+biofuels_production_ktoe,measure,Biofuels Production - Ktoe
+oil_refinery_throughputs,measure,Oil - Refinery throughputs
+hydro_consumption_mtoe,measure, Hydro Consumption - Mtoe
+gas_consumption_bcf,measure,Gas Consumption – Bcf
+wind_consumption_twh,measure,Wind Consumption - TWh 
+coal_production_tonnes,measure,Coal Production - Tonnes
+carbon_dioxide_emissions,measure,Carbon Dioxide Emissions
+oil_proved_reserves_history,measure,Oil - Proved reserves history
+nuclear_consumption_mtoe,measure,Nuclear Consumption - Mtoe
+gas_production_tonnes,measure,Gas Production – tonnes
+coal_production_mtoe,measure, Coal Production - Mtoe
+oil_production_barrels,measure,Oil Production – Barrels
+hydro_consumption_twh,measure,Hydro Consumption - TWh
+gas_consumption_bcm,measure,Gas Consumption – Bcm
+primary_energy_consumption,measure,Primary Energy Consumption 
+solar_consumption_twh,measure,Solar Consumption - TWh
+other_renewables_mtoe,measure,Other renewables - Mtoe
+gas_consumption_tonnes,measure,Gas Consumption – tonnes
+oil_consumption_barrels,measure,Oil Consumption – Barrels
+biofuels_production_kboed,measure,Biofuels Production - Kboed
+oil_consumption_tonnes,measure,Oil Consumption – Tonnes
+nuclear_consumption_twh,measure,Nuclear Consumption - TWh
+gas_production_bcm,measure,Gas Production – Bcm
+geo_biomass_other_mtoe,measure,Geo Biomass Other - Mtoe
+wind_consumption_mtoe,measure,Wind Consumption - Mtoe
+solar_consumption_mtoe,measure,Solar Consumption - Mtoe
+oil_refinery_capacities,measure,Oil - Refinery capacities
+geo,entity_set,Geo
+geo_name,string,Geo Name
+name,string,Name
