@@ -38,6 +38,7 @@ def preprocess(data):
 if __name__ == '__main__':
 
     from functools import partial
+    from ddf_utils.index import create_index_file
 
     imported = []
     not_imported = []
@@ -97,5 +98,7 @@ if __name__ == '__main__':
 
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
     concepts_df.to_csv(fn_concept)
+
+    create_index_file(out_dir)
 
     print('Done.')
