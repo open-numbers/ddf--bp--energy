@@ -4,37 +4,37 @@ source: http://www.bp.com/content/dam/bp/excel/energy-economics/statistical-revi
 
 for now, only part of data are imported. Namly:
 
-* Biofuels Production - Kboed
-* Biofuels Production - Ktoe
-* Carbon Dioxide Emissions
-* Coal Consumption -  Mtoe
-* Coal Production - Mtoe
-* Coal Production - Tonnes
-* Electricity Generation 
-* Gas - Proved reserves history 
-* Gas Consumption – Bcf
-* Gas Consumption – Bcm
-* Gas Consumption – tonnes
-* Gas Production – Bcf
-* Gas Production – Bcm
-* Gas Production – tonnes
-* Geo Biomass Other - Mtoe
-* Geo Biomass Other - TWh
-* Hydro Consumption - Mtoe
-* Hydro Consumption - TWh
-* Nuclear Consumption - Mtoe
-* Nuclear Consumption - TWh
 * Oil - Proved reserves history
-* Oil - Refinery capacities
-* Oil - Refinery throughputs
-* Oil Consumption – Barrels
-* Oil Consumption – Tonnes
 * Oil Production – Barrels
 * Oil Production – Tonnes
-* Other renewables - Mtoe
+* Oil Consumption – Barrels
+* Oil Consumption – Tonnes
+* Oil - Refinery capacities
+* Oil - Refinery throughputs
+* Gas - Proved reserves history
+* Gas Production – Bcm
+* Gas Production – Bcf
+* Gas Production – tonnes
+* Gas Consumption – Bcm
+* Gas Consumption – Bcf
+* Gas Consumption – tonnes
+* Coal Production - Tonnes
+* Coal Production - Mtoe
+* Coal Consumption -  Mtoe
+* Nuclear Consumption - TWh
+* Nuclear Consumption - Mtoe
+* Hydro Consumption - TWh
+* Hydro Consumption - Mtoe
 * Other renewables -TWh
-* Primary Energy Consumption 
-* Solar Consumption - Mtoe
+* Other renewables - Mtoe
 * Solar Consumption - TWh
+* Solar Consumption - Mtoe
+* Wind Consumption - TWh
 * Wind Consumption - Mtoe
-* Wind Consumption - TWh 
+* Geo Biomass Other - TWh
+* Geo Biomass Other - Mtoe
+* Biofuels Production - Kboed
+* Biofuels Production - Ktoe
+* Primary Energy Consumption
+* Electricity Generation
+* Carbon Dioxide Emissions
