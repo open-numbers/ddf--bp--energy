@@ -4,37 +4,37 @@ source: http://www.bp.com/content/dam/bp/excel/energy-economics/statistical-revi
 
 for now, only part of data are imported. Namly:
 
-* Other renewables -TWh
-* Gas - Proved reserves history 
-* Electricity Generation 
-* Coal Consumption -  Mtoe
-* Geo Biomass Other - TWh
-* Gas Production – Bcf
-* Oil Production – Tonnes
-* Biofuels Production - Ktoe
-* Oil - Refinery throughputs
-* Hydro Consumption - Mtoe
-* Gas Consumption – Bcf
-* Wind Consumption - TWh 
-* Coal Production - Tonnes
-* Carbon Dioxide Emissions
-* Oil - Proved reserves history
-* Nuclear Consumption - Mtoe
-* Gas Production – tonnes
-* Coal Production - Mtoe
-* Oil Production – Barrels
-* Hydro Consumption - TWh
-* Gas Consumption – Bcm
-* Primary Energy Consumption 
-* Solar Consumption - TWh
-* Other renewables - Mtoe
-* Gas Consumption – tonnes
-* Oil Consumption – Barrels
 * Biofuels Production - Kboed
-* Oil Consumption – Tonnes
-* Nuclear Consumption - TWh
+* Biofuels Production - Ktoe
+* Carbon Dioxide Emissions
+* Coal Consumption -  Mtoe
+* Coal Production - Mtoe
+* Coal Production - Tonnes
+* Electricity Generation 
+* Gas - Proved reserves history 
+* Gas Consumption – Bcf
+* Gas Consumption – Bcm
+* Gas Consumption – tonnes
+* Gas Production – Bcf
 * Gas Production – Bcm
+* Gas Production – tonnes
 * Geo Biomass Other - Mtoe
-* Wind Consumption - Mtoe
-* Solar Consumption - Mtoe
+* Geo Biomass Other - TWh
+* Hydro Consumption - Mtoe
+* Hydro Consumption - TWh
+* Nuclear Consumption - Mtoe
+* Nuclear Consumption - TWh
+* Oil - Proved reserves history
 * Oil - Refinery capacities
+* Oil - Refinery throughputs
+* Oil Consumption – Barrels
+* Oil Consumption – Tonnes
+* Oil Production – Barrels
+* Oil Production – Tonnes
+* Other renewables - Mtoe
+* Other renewables -TWh
+* Primary Energy Consumption 
+* Solar Consumption - Mtoe
+* Solar Consumption - TWh
+* Wind Consumption - Mtoe
+* Wind Consumption - TWh 
