@@ -3,7 +3,6 @@
 """etl for bp--energy dataset. More info refer to README of the repo."""
 
 import pandas as pd
-import numpy as np
 import os
 import xlrd
 from ddf_utils.str import to_concept_id
@@ -14,6 +13,12 @@ out_dir = '../../'
 
 
 def extract_datapoint(data, ddf_id):
+    """
+    transform the source data to ddf datapoint.
+
+    Note: This function only applies to the tab with country as row index
+    and year as column index.
+    """
     data = data.drop(['2013.1', 'of total'], axis=1)
     data = data.set_index('geo')
 
@@ -26,6 +31,14 @@ def extract_datapoint(data, ddf_id):
 
 
 def preprocess(data):
+    """preprocessing the data:
+    1. rename the first column to geo_name
+    2. rename the geo_name to alphanumeric
+    3. drop all empty lines and lines after 'total world'
+
+    Note: This function only applies to the tab with country as row index
+    and year as column index.
+    """
     data = data.rename(columns={data.columns[0]: 'geo_name'})
     data['geo'] = data['geo_name'].map(to_concept_id)
     data = data.set_index('geo')
@@ -40,17 +53,16 @@ if __name__ == '__main__':
     from functools import partial
     from ddf_utils.index import create_index_file
 
-    imported = []
-    not_imported = []
-
+    # all sheets name and the names in alphanumeric format.
     sheets = xlrd.open_workbook(source).sheet_names()
-
     to_concept_id_ = partial(to_concept_id, sub='[/ -\.\*–";]+')
     concepts_ids = list(map(to_concept_id_, sheets))
 
     concept_dict = dict(zip(sheets, concepts_ids))
 
-    geos = []
+    geos = []  # a list of geo dataframe from each datapoint dataframe.
+    imported = []  # the tabs imported successfully,
+    not_imported = []  # and those not successfully.
 
     for i in sheets:
         print('running tab '+i+'...')
@@ -70,12 +82,14 @@ if __name__ == '__main__':
         df.to_csv(fn, index=False)
         imported.append(i)
 
+    # entities
     geo_df = pd.concat(geos)
     geo_df['geo_name'] = geo_df['geo_name'].str.strip()
     geo_df = geo_df.drop_duplicates()
     fn_geo = os.path.join(out_dir, 'ddf--entities--geo.csv')
     geo_df.to_csv(fn_geo, index=False)
 
+    # concepts
     concepts_df = pd.DataFrame([], columns=['concept', 'concept_type', 'name'])
 
     concept_dict['Geo'] = 'geo'
@@ -99,6 +113,7 @@ if __name__ == '__main__':
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
     concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)
 
+    # index
     create_index_file(out_dir)
 
     print('Done.')
