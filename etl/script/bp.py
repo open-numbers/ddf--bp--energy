@@ -97,7 +97,7 @@ if __name__ == '__main__':
     concepts_df.loc['name', 'concept_type'] = 'string'
 
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
-    concepts_df.to_csv(fn_concept)
+    concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)
 
     create_index_file(out_dir)
 
