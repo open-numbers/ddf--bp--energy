@@ -33,6 +33,6 @@ geo_biomass_other_mtoe,measure,Geo Biomass Other - Mtoe
 wind_consumption_mtoe,measure,Wind Consumption - Mtoe
 solar_consumption_mtoe,measure,Solar Consumption - Mtoe
 oil_refinery_capacities,measure,Oil - Refinery capacities
-geo,entity_set,Geo
+geo,entity_domain,Geo
 geo_name,string,Geo Name
 name,string,Name
