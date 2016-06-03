@@ -79,6 +79,8 @@ if __name__ == '__main__':
             continue
 
         fn = os.path.join(out_dir, 'ddf--datapoints--'+concept_dict[i]+'--by--geo--year.csv')
+        # TODO: try to keep the precision of source data and avoid python export numbers
+        # like 14.9999999 instead of 15.
         df.to_csv(fn, index=False)
         imported.append(i)
 
@@ -95,10 +97,12 @@ if __name__ == '__main__':
     concept_dict['Geo'] = 'geo'
     concept_dict['Geo Name'] = 'geo_name'
     concept_dict['Name'] = 'name'
+    concept_dict['Year'] = 'year'
 
     imported.append('Geo')
     imported.append('Geo Name')
     imported.append('Name')
+    imported.append('Year')
 
     imported_dict = dict([[k, concept_dict[k]] for k in imported])
 
@@ -109,6 +113,7 @@ if __name__ == '__main__':
     concepts_df = concepts_df.set_index('concept')
     concepts_df.loc['geo', 'concept_type'] = 'entity_domain'
     concepts_df.loc['name', 'concept_type'] = 'string'
+    concepts_df.loc['year', 'concept_type'] = 'year'
 
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
     concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)
