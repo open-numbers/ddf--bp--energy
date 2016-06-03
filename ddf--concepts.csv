@@ -36,4 +36,4 @@ solar_consumption_twh,measure,Solar Consumption - TWh
 wind_consumption_mtoe,measure,Wind Consumption - Mtoe
 wind_consumption_twh,measure,Wind Consumption - TWh
 name,string,Name
-year,year,Year
+year,time,Year
