@@ -55,8 +55,7 @@ if __name__ == '__main__':
 
     # all sheets name and the names in alphanumeric format.
     sheets = xlrd.open_workbook(source).sheet_names()
-    to_concept_id_ = partial(to_concept_id, sub='[/ -\.\*–";]+')
-    concepts_ids = list(map(to_concept_id_, sheets))
+    concepts_ids = list(map(to_concept_id, sheets))
 
     concept_dict = dict(zip(sheets, concepts_ids))
 
