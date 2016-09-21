@@ -5,7 +5,7 @@
 import pandas as pd
 import os
 import xlrd
-from ddf_utils.str import to_concept_id
+from ddf_utils.str import to_concept_id, format_float_sigfig
 
 # Configuration
 source = '../source/bp-statistical-review-of-world-energy-2015-workbook.xlsx'
@@ -78,8 +78,7 @@ if __name__ == '__main__':
             continue
 
         fn = os.path.join(out_dir, 'ddf--datapoints--'+concept_dict[i]+'--by--geo--year.csv')
-        # TODO: try to keep the precision of source data and avoid python export numbers
-        # like 14.9999999 instead of 15.
+        df[concept_dict[i]] = df[concept_dict[i]].map(format_float_sigfig)
         df.to_csv(fn, index=False)
         imported.append(i)
 
