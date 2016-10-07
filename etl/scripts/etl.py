@@ -112,6 +112,7 @@ if __name__ == '__main__':
     concepts_df.loc['geo', 'concept_type'] = 'entity_domain'
     concepts_df.loc['name', 'concept_type'] = 'string'
     concepts_df.loc['year', 'concept_type'] = 'time'
+    concepts_df.loc['geo_name', 'concept_type'] = 'string'
 
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
     concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)

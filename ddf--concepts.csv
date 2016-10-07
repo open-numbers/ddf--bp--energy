@@ -16,7 +16,7 @@ gas_production_bcm,measure,Gas Production – Bcm
 gas_production_tonnes,measure,Gas Production – tonnes
 geo_biomass_other_mtoe,measure,Geo Biomass Other - Mtoe
 geo_biomass_other_twh,measure,Geo Biomass Other - TWh
-geo_name,measure,Geo Name
+geo_name,string,Geo Name
 hydro_consumption_mtoe,measure,Hydro Consumption - Mtoe
 hydro_consumption_twh,measure,Hydro Consumption - TWh
 nuclear_consumption_mtoe,measure,Nuclear Consumption - Mtoe
