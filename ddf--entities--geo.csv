@@ -21,6 +21,7 @@ romania,Romania
 russian_federation,Russian Federation
 turkmenistan,Turkmenistan
 united_kingdom,United Kingdom
+ussr,USSR
 uzbekistan,Uzbekistan
 other_europe_eurasia,Other Europe & Eurasia
 total_europe_eurasia,Total Europe & Eurasia
@@ -38,7 +39,7 @@ total_middle_east,Total Middle East
 algeria,Algeria
 angola,Angola
 chad,Chad
-rep_of_congo_brazzaville,Rep. of Congo (Brazzaville)
+republic_of_congo,Republic of Congo
 egypt,Egypt
 equatorial_guinea,Equatorial Guinea
 gabon,Gabon
@@ -71,7 +72,7 @@ france,France
 germany,Germany
 greece,Greece
 hungary,Hungary
-republic_of_ireland,Republic of Ireland
+ireland,Ireland
 lithuania,Lithuania
 netherlands,Netherlands
 poland,Poland
@@ -93,14 +94,12 @@ philippines,Philippines
 singapore,Singapore
 south_korea,South Korea
 taiwan,Taiwan
+curacao,Curacao
 netherlands_antilles,Netherlands Antilles
-s_cent_america,S. & Cent. America
-europe_eurasia,Europe & Eurasia
-middle_east,Middle East
-africa,Africa
-australasia,Australasia
 bolivia,Bolivia
 bahrain,Bahrain
 myanmar,Myanmar
 papua_new_guinea,Papua New Guinea
+serbia,Serbia
 zimbabwe,Zimbabwe
+mongolia,Mongolia

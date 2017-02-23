@@ -16,14 +16,13 @@ gas_production_bcm,measure,Gas Production – Bcm
 gas_production_tonnes,measure,Gas Production – tonnes
 geo_biomass_other_mtoe,measure,Geo Biomass Other - Mtoe
 geo_biomass_other_twh,measure,Geo Biomass Other - TWh
-geo_name,string,Geo Name
 hydro_consumption_mtoe,measure,Hydro Consumption - Mtoe
 hydro_consumption_twh,measure,Hydro Consumption - TWh
 nuclear_consumption_mtoe,measure,Nuclear Consumption - Mtoe
 nuclear_consumption_twh,measure,Nuclear Consumption - TWh
 oil_proved_reserves_history,measure,Oil - Proved reserves history
 oil_refinery_capacities,measure,Oil - Refinery capacities
-oil_refinery_throughputs,measure,Oil - Refinery throughputs
+oil_refinery_throughput,measure,Oil - Refinery throughput
 oil_consumption_barrels,measure,Oil Consumption – Barrels
 oil_consumption_tonnes,measure,Oil Consumption – Tonnes
 oil_production_barrels,measure,Oil Production – Barrels
@@ -35,5 +34,6 @@ solar_consumption_mtoe,measure,Solar Consumption - Mtoe
 solar_consumption_twh,measure,Solar Consumption - TWh
 wind_consumption_mtoe,measure,Wind Consumption - Mtoe
 wind_consumption_twh,measure,Wind Consumption - TWh
+geo_name,string,Geo Name
 name,string,Name
 year,time,Year

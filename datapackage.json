@@ -8,7 +8,6 @@
             "path": "ddf--concepts.csv",
             "name": "ddf--concepts",
             "schema": {
-                "primaryKey": "concept",
                 "fields": [
                     {
                         "name": "concept"
@@ -19,17 +18,14 @@
                     {
                         "name": "name"
                     }
-                ]
+                ],
+                "primaryKey": "concept"
             }
         },
         {
             "path": "ddf--datapoints--biofuels_production_kboed--by--geo--year.csv",
             "name": "ddf--datapoints--biofuels_production_kboed--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -40,6 +36,10 @@
                     {
                         "name": "biofuels_production_kboed"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -47,10 +47,6 @@
             "path": "ddf--datapoints--biofuels_production_ktoe--by--geo--year.csv",
             "name": "ddf--datapoints--biofuels_production_ktoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -61,6 +57,10 @@
                     {
                         "name": "biofuels_production_ktoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -68,10 +68,6 @@
             "path": "ddf--datapoints--carbon_dioxide_emissions--by--geo--year.csv",
             "name": "ddf--datapoints--carbon_dioxide_emissions--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -82,6 +78,10 @@
                     {
                         "name": "carbon_dioxide_emissions"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -89,10 +89,6 @@
             "path": "ddf--datapoints--coal_consumption_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--coal_consumption_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -103,6 +99,10 @@
                     {
                         "name": "coal_consumption_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -110,10 +110,6 @@
             "path": "ddf--datapoints--coal_production_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--coal_production_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -124,6 +120,10 @@
                     {
                         "name": "coal_production_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -131,10 +131,6 @@
             "path": "ddf--datapoints--coal_production_tonnes--by--geo--year.csv",
             "name": "ddf--datapoints--coal_production_tonnes--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -145,6 +141,10 @@
                     {
                         "name": "coal_production_tonnes"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -152,10 +152,6 @@
             "path": "ddf--datapoints--electricity_generation--by--geo--year.csv",
             "name": "ddf--datapoints--electricity_generation--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -166,6 +162,10 @@
                     {
                         "name": "electricity_generation"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -173,10 +173,6 @@
             "path": "ddf--datapoints--gas_consumption_bcf--by--geo--year.csv",
             "name": "ddf--datapoints--gas_consumption_bcf--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -187,6 +183,10 @@
                     {
                         "name": "gas_consumption_bcf"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -194,10 +194,6 @@
             "path": "ddf--datapoints--gas_consumption_bcm--by--geo--year.csv",
             "name": "ddf--datapoints--gas_consumption_bcm--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -208,6 +204,10 @@
                     {
                         "name": "gas_consumption_bcm"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -215,10 +215,6 @@
             "path": "ddf--datapoints--gas_consumption_tonnes--by--geo--year.csv",
             "name": "ddf--datapoints--gas_consumption_tonnes--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -229,6 +225,10 @@
                     {
                         "name": "gas_consumption_tonnes"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -236,10 +236,6 @@
             "path": "ddf--datapoints--gas_production_bcf--by--geo--year.csv",
             "name": "ddf--datapoints--gas_production_bcf--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -250,6 +246,10 @@
                     {
                         "name": "gas_production_bcf"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -257,10 +257,6 @@
             "path": "ddf--datapoints--gas_production_bcm--by--geo--year.csv",
             "name": "ddf--datapoints--gas_production_bcm--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -271,6 +267,10 @@
                     {
                         "name": "gas_production_bcm"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -278,10 +278,6 @@
             "path": "ddf--datapoints--gas_production_tonnes--by--geo--year.csv",
             "name": "ddf--datapoints--gas_production_tonnes--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -292,6 +288,10 @@
                     {
                         "name": "gas_production_tonnes"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -299,10 +299,6 @@
             "path": "ddf--datapoints--gas_proved_reserves_history--by--geo--year.csv",
             "name": "ddf--datapoints--gas_proved_reserves_history--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -313,6 +309,10 @@
                     {
                         "name": "gas_proved_reserves_history"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -320,10 +320,6 @@
             "path": "ddf--datapoints--geo_biomass_other_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--geo_biomass_other_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -334,6 +330,10 @@
                     {
                         "name": "geo_biomass_other_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -341,10 +341,6 @@
             "path": "ddf--datapoints--geo_biomass_other_twh--by--geo--year.csv",
             "name": "ddf--datapoints--geo_biomass_other_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -355,6 +351,10 @@
                     {
                         "name": "geo_biomass_other_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -362,10 +362,6 @@
             "path": "ddf--datapoints--hydro_consumption_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--hydro_consumption_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -376,6 +372,10 @@
                     {
                         "name": "hydro_consumption_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -383,10 +383,6 @@
             "path": "ddf--datapoints--hydro_consumption_twh--by--geo--year.csv",
             "name": "ddf--datapoints--hydro_consumption_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -397,6 +393,10 @@
                     {
                         "name": "hydro_consumption_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -404,10 +404,6 @@
             "path": "ddf--datapoints--nuclear_consumption_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--nuclear_consumption_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -418,6 +414,10 @@
                     {
                         "name": "nuclear_consumption_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -425,10 +425,6 @@
             "path": "ddf--datapoints--nuclear_consumption_twh--by--geo--year.csv",
             "name": "ddf--datapoints--nuclear_consumption_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -439,6 +435,10 @@
                     {
                         "name": "nuclear_consumption_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -446,10 +446,6 @@
             "path": "ddf--datapoints--oil_consumption_barrels--by--geo--year.csv",
             "name": "ddf--datapoints--oil_consumption_barrels--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -460,6 +456,10 @@
                     {
                         "name": "oil_consumption_barrels"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -467,10 +467,6 @@
             "path": "ddf--datapoints--oil_consumption_tonnes--by--geo--year.csv",
             "name": "ddf--datapoints--oil_consumption_tonnes--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -481,6 +477,10 @@
                     {
                         "name": "oil_consumption_tonnes"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -488,10 +488,6 @@
             "path": "ddf--datapoints--oil_production_barrels--by--geo--year.csv",
             "name": "ddf--datapoints--oil_production_barrels--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -502,6 +498,10 @@
                     {
                         "name": "oil_production_barrels"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -509,10 +509,6 @@
             "path": "ddf--datapoints--oil_production_tonnes--by--geo--year.csv",
             "name": "ddf--datapoints--oil_production_tonnes--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -523,6 +519,10 @@
                     {
                         "name": "oil_production_tonnes"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -530,10 +530,6 @@
             "path": "ddf--datapoints--oil_proved_reserves_history--by--geo--year.csv",
             "name": "ddf--datapoints--oil_proved_reserves_history--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -544,6 +540,10 @@
                     {
                         "name": "oil_proved_reserves_history"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -551,10 +551,6 @@
             "path": "ddf--datapoints--oil_refinery_capacities--by--geo--year.csv",
             "name": "ddf--datapoints--oil_refinery_capacities--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -565,17 +561,17 @@
                     {
                         "name": "oil_refinery_capacities"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
         {
-            "path": "ddf--datapoints--oil_refinery_throughputs--by--geo--year.csv",
-            "name": "ddf--datapoints--oil_refinery_throughputs--by--geo--year",
+            "path": "ddf--datapoints--oil_refinery_throughput--by--geo--year.csv",
+            "name": "ddf--datapoints--oil_refinery_throughput--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -584,8 +580,12 @@
                         "name": "year"
                     },
                     {
-                        "name": "oil_refinery_throughputs"
+                        "name": "oil_refinery_throughput"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -593,10 +593,6 @@
             "path": "ddf--datapoints--other_renewables_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--other_renewables_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -607,6 +603,10 @@
                     {
                         "name": "other_renewables_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -614,10 +614,6 @@
             "path": "ddf--datapoints--other_renewables_twh--by--geo--year.csv",
             "name": "ddf--datapoints--other_renewables_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -628,6 +624,10 @@
                     {
                         "name": "other_renewables_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -635,10 +635,6 @@
             "path": "ddf--datapoints--primary_energy_consumption--by--geo--year.csv",
             "name": "ddf--datapoints--primary_energy_consumption--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -649,6 +645,10 @@
                     {
                         "name": "primary_energy_consumption"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -656,10 +656,6 @@
             "path": "ddf--datapoints--solar_consumption_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--solar_consumption_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -670,6 +666,10 @@
                     {
                         "name": "solar_consumption_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -677,10 +677,6 @@
             "path": "ddf--datapoints--solar_consumption_twh--by--geo--year.csv",
             "name": "ddf--datapoints--solar_consumption_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -691,6 +687,10 @@
                     {
                         "name": "solar_consumption_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -698,10 +698,6 @@
             "path": "ddf--datapoints--wind_consumption_mtoe--by--geo--year.csv",
             "name": "ddf--datapoints--wind_consumption_mtoe--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -712,6 +708,10 @@
                     {
                         "name": "wind_consumption_mtoe"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -719,10 +719,6 @@
             "path": "ddf--datapoints--wind_consumption_twh--by--geo--year.csv",
             "name": "ddf--datapoints--wind_consumption_twh--by--geo--year",
             "schema": {
-                "primaryKey": [
-                    "geo",
-                    "year"
-                ],
                 "fields": [
                     {
                         "name": "geo"
@@ -733,6 +729,10 @@
                     {
                         "name": "wind_consumption_twh"
                     }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
                 ]
             }
         },
@@ -740,7 +740,6 @@
             "path": "ddf--entities--geo.csv",
             "name": "ddf--entities--geo",
             "schema": {
-                "primaryKey": "geo",
                 "fields": [
                     {
                         "name": "geo"
@@ -748,7 +747,8 @@
                     {
                         "name": "geo_name"
                     }
-                ]
+                ],
+                "primaryKey": "geo"
             }
         }
     ]

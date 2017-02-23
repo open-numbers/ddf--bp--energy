@@ -9,7 +9,7 @@ from ddf_utils.str import to_concept_id, format_float_sigfig
 from ddf_utils.index import get_datapackage
 
 # Configuration
-source = '../source/bp-statistical-review-of-world-energy-2015-workbook.xlsx'
+source = '../source/bp-statistical-review-of-world-energy-2016-workbook.xlsx'
 out_dir = '../../'
 
 
@@ -20,7 +20,7 @@ def extract_datapoint(data, ddf_id):
     Note: This function only applies to the tab with country as row index
     and year as column index.
     """
-    data = data.drop(['2013.1', 'of total'], axis=1)
+    data = data.drop(['2014.1', 'of total'], axis=1)  # The last 2 column of each sheet.
     data = data.set_index('geo')
 
     d = data.T.unstack()
@@ -40,6 +40,7 @@ def preprocess(data):
     Note: This function only applies to the tab with country as row index
     and year as column index.
     """
+    assert 2015 in data.columns
     data = data.rename(columns={data.columns[0]: 'geo_name'})
     data['geo'] = data['geo_name'].map(to_concept_id)
     data = data.set_index('geo')
@@ -69,6 +70,7 @@ if __name__ == '__main__':
             data = pd.read_excel(source, na_values=['n/a'], sheetname=i, skiprows=2)
             data = preprocess(data)
             df = extract_datapoint(data.drop('geo_name', axis=1), concept_dict[i])
+            print(df.head(2))
             geos.append(data[['geo', 'geo_name']].copy())
         except Exception as e:
             # print(e)
@@ -118,4 +120,8 @@ if __name__ == '__main__':
     # index
     get_datapackage(out_dir, use_existing=True, to_disk=True)
 
+    print('tabs not imported:')
+    for i in not_imported:
+        print(i)
+    print('If there are tabs should be imported here, please modify the script.')
     print('Done.')
