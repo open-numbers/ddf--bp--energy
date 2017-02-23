@@ -6,6 +6,7 @@ import pandas as pd
 import os
 import xlrd
 from ddf_utils.str import to_concept_id, format_float_sigfig
+from ddf_utils.index import get_datapackage
 
 # Configuration
 source = '../source/bp-statistical-review-of-world-energy-2015-workbook.xlsx'
@@ -49,9 +50,6 @@ def preprocess(data):
 
 
 if __name__ == '__main__':
-
-    from functools import partial
-    from ddf_utils.index import create_index_file
 
     # all sheets name and the names in alphanumeric format.
     sheets = xlrd.open_workbook(source).sheet_names()
@@ -118,6 +116,6 @@ if __name__ == '__main__':
     concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)
 
     # index
-    create_index_file(out_dir)
+    get_datapackage(out_dir, use_existing=True, to_disk=True)
 
     print('Done.')
