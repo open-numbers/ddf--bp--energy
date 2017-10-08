@@ -6,7 +6,7 @@ import pandas as pd
 import os
 import xlrd
 from ddf_utils.str import to_concept_id, format_float_sigfig
-from ddf_utils.index import get_datapackage
+from ddf_utils.datapackage import get_datapackage, dump_json
 
 # Configuration
 source = '../source/bp-statistical-review-of-world-energy-2016-workbook.xlsx'
@@ -117,8 +117,9 @@ if __name__ == '__main__':
     fn_concept = os.path.join(out_dir, 'ddf--concepts.csv')
     concepts_df.sort_values(by=['concept_type', 'name']).to_csv(fn_concept)
 
-    # index
-    get_datapackage(out_dir, use_existing=True, to_disk=True)
+    # datapackage
+    dp = get_datapackage(out_dir, use_existing=True, update=True)
+    dump_json(os.path.join(out_dir, 'datapackage.json'), dp)
 
     print('tabs not imported:')
     for i in not_imported:
