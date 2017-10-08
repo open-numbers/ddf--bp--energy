@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
-"""etl for bp--energy dataset. More info refer to README of the repo."""
+"""etl for bp--energy dataset. More info refer to README of the repo.
+
+On Updating this script for new source files:
+1. please modify line 17 and 28 accordingly
+2. please check the output message form running the script
+"""
 
 import pandas as pd
 import os
@@ -9,7 +14,7 @@ from ddf_utils.str import to_concept_id, format_float_sigfig
 from ddf_utils.datapackage import get_datapackage, dump_json
 
 # Configuration
-source = '../source/bp-statistical-review-of-world-energy-2016-workbook.xlsx'
+source = '../source/bp-statistical-review-of-world-energy-2017-underpinning-data.xlsx'
 out_dir = '../../'
 
 
@@ -20,7 +25,7 @@ def extract_datapoint(data, ddf_id):
     Note: This function only applies to the tab with country as row index
     and year as column index.
     """
-    data = data.drop(['2014.1', 'of total'], axis=1)  # The last 2 column of each sheet.
+    data = data.drop(['2016.1', '2016.2', '2005-15'], axis=1)  # The last 3 column of each sheet.
     data = data.set_index('geo')
 
     d = data.T.unstack()
