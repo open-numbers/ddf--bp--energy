@@ -1,6 +1,6 @@
 # ddf--bp--energy
 
-source: http://www.bp.com/content/dam/bp/excel/energy-economics/statistical-review-2015/bp-statistical-review-of-world-energy-2015-workbook.xlsx
+source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy/downloads.html
 
 for now, only part of data(Production, Consumption) are imported. Other data (Prices, Trade) 
 will be imported later.
