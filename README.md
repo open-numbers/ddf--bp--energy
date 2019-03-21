@@ -1,9 +1,9 @@
 # ddf--bp--energy
 
-source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy/downloads.html
+source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 
-for now, only part of data(Production, Consumption) are imported. Other data (Prices, Trade) 
-will be imported later.
+for now, only part of data(Production, Consumption) were imported. Other data (Prices, Trade) were not imported
+
 
 imported indicators:
 
@@ -36,7 +36,7 @@ imported indicators:
 * Wind Consumption - Mtoe
 * Geo Biomass Other - TWh
 * Geo Biomass Other - Mtoe
-* Biofuels Production - Kboed
+* Biofuels Production - Kboe/d
 * Biofuels Production - Ktoe
 * Primary Energy Consumption
 * Electricity Generation
