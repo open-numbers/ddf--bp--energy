@@ -3,7 +3,7 @@
 """etl for bp--energy dataset. More info refer to README of the repo.
 
 On Updating this script for new source files:
-1. please modify line 17 and 28 accordingly
+1. please modify line 17 and 51 accordingly
 2. please check the output message form running the script
 """
 
@@ -11,10 +11,11 @@ import pandas as pd
 import os
 import xlrd
 from ddf_utils.str import to_concept_id, format_float_sigfig
-from ddf_utils.datapackage import get_datapackage, dump_json
+from ddf_utils.package import get_datapackage
+from ddf_utils.io import dump_json
 
 # Configuration
-source = '../source/bp-statistical-review-of-world-energy-2017-underpinning-data.xlsx'
+source = '../source/bp-stats-review-2018-all-data.xlsx'
 out_dir = '../../'
 
 
@@ -25,7 +26,11 @@ def extract_datapoint(data, ddf_id):
     Note: This function only applies to the tab with country as row index
     and year as column index.
     """
-    data = data.drop(['2016.1', '2016.2', '2005-15'], axis=1)  # The last 3 column of each sheet.
+    assert 2017 in data.columns  # assert latest year in the columns
+    data = data.dropna(axis=1, how='all')
+    idx = list(data.columns).index(2017)
+    data = data.iloc[:, :idx + 1]  # drop columns after latest year of each sheet.
+    # data = data.drop(['2017.1', '2017.2', '2006-16'], axis=1)
     data = data.set_index('geo')
 
     d = data.T.unstack()
@@ -45,12 +50,11 @@ def preprocess(data):
     Note: This function only applies to the tab with country as row index
     and year as column index.
     """
-    assert 2015 in data.columns
     data = data.rename(columns={data.columns[0]: 'geo_name'})
     data['geo'] = data['geo_name'].map(to_concept_id)
     data = data.set_index('geo')
     data = data.dropna(how='all')
-    data = data[:'total_world']
+    data = data.loc[:'total_world']
     data = data.reset_index()
     return data
 
@@ -69,15 +73,21 @@ if __name__ == '__main__':
 
     for i in sheets:
         print('running tab '+i+'...')
-        if 'Regional' in i or 'Trade' in i or 'Price' in i:
+        i_ = i.lower()
+        dont_read = False
+        for x in ['regional', 'trade', 'price', 'definition', 'content']:
+            if x in i_:
+                dont_read = True
+                break
+        if dont_read:
             continue
         try:
-            data = pd.read_excel(source, na_values=['n/a'], sheetname=i, skiprows=2)
+            data = pd.read_excel(source, na_values=['n/a'], sheet_name=i, skiprows=2)
             data = preprocess(data)
             df = extract_datapoint(data.drop('geo_name', axis=1), concept_dict[i])
             print(df.head(2))
             geos.append(data[['geo', 'geo_name']].copy())
-        except Exception as e:
+        except (KeyError, AssertionError) as e:
             # print(e)
             not_imported.append(i)
             continue
@@ -88,7 +98,7 @@ if __name__ == '__main__':
         imported.append(i)
 
     # entities
-    geo_df = pd.concat(geos)
+    geo_df = pd.concat(geos, ignore_index=True)
     geo_df['geo_name'] = geo_df['geo_name'].str.strip()
     geo_df = geo_df.drop_duplicates()
     fn_geo = os.path.join(out_dir, 'ddf--entities--geo.csv')
