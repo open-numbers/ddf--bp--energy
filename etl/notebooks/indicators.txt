@@ -1,0 +1,84 @@
+indicators
+
+indicators with only geo, time dimension:
+
+Primary Energy: Consumption - Mtoe (from 1965),Primary Energy Consumption
+Carbon Dioxide Emissions (from 1965),Carbon Dioxide Emissions
+
+Oil: Refinery throughput (from 1980),Oil - Refinery throughput
+Oil: Refining capacity (from 1965),Oil - Refining capacity
+
+geo/time/fuel, indicators with unit: 
+
+Oil: Production - Barrels (from 1965),Oil Production - Barrels
+Oil: Production - Tonnes (from 1965),Oil Production - Tonnes
+Oil: Consumption - Barrels (from 1965),Oil Consumption - Barrels
+Oil: Consumption - Tonnes (from 1965),Oil Consumption - Tonnes
+Oil: Consumption - Mtoe (from 1965),OIl Consumption - Mtoe
+
+Oil: Proved reserves - Barrels (from 1980),Oil - Proved reserves history
+
+Gas: Proved reserves - Bcm (from 1980),Gas - Proved reserves history 
+
+Gas: Production - Bcm (from 1970),Gas Production - Bcm
+Gas: Production - Bcf (from 1970),Gas Production - Bcf
+Gas: Production - Mtoe (from 1970),Gas Production - Mtoe
+Gas: Consumption - Bcm (from 1965),Gas Consumption - Bcm
+Gas: Consumption - Bcf (from 1965),Gas Consumption - Bcf
+Gas: Consumption - Mtoe (from 1965),Gas Consumption - Mtoe
+Coal: Production - Tonnes (from 1981),Coal Production - Tonnes
+Coal: Production - Mtoe (from 1981),Coal Production - Mtoe
+Coal: Consumption - Mtoe (from 1965),Coal Consumption - Mtoe
+Nuclear Energy - Generation - TWh (from 1965),Nuclear Generation - TWh
+Nuclear Energy - Consumption - Mtoe (from 1965),Nuclear Consumption - Mtoe
+Hydroelectricity - Generation - TWh (from 1965),Hydro Generation - TWh
+Hydroelectricity - Consumption - Mtoe (from 1965),Hydro Consumption - Mtoe
+Renewables - Other renewables generation -Twh (from 1965),Other renewables - TWh
+Renewables - Other renewables consumption - Mtoe (from 1965),Other renewables - Mtoe
+Renewables - Solar generation - TWh (from 1965),Solar Consumption - TWh
+Renewables - Solar consumption - Mtoe (from 1965),Solar Consumption - Mtoe
+Renewables - Wind generation - TWh (from 1965),Wind Consumption - TWh 
+Renewables - Wind consumption - Mtoe (from 1965),Wind Consumption - Mtoe
+"Renewables - Geothermal, Biomass and Other generation - TWh  (from 1965)",Geo Biomass Other - TWh
+"Renewables - Geothermal, Biomass and Other - Mtoe  (from 1965)",Geo Biomass Other - Mtoe
+Renewables - Biofuels production - Kboe/d (from 1990),Biofuels Production - Kboed
+Renewables - Biofuels production - Ktoe (from 1990),Biofuels Production - Ktoe
+
+Electricity generation from oil -TWh (from 1985),Elec Gen from Oil
+Electricity generation from gas - TWh (from 1985),Elec Gen from Gas
+Electricity generation from coal - TWh (from 1985),Elec Gen from Coal
+Electricity generation from other - TWh (from 1985),Elec Gen from Other
+
+Production - Reserves by key materials:
+
+Key materials - Cobalt Production - Reserves (from 1995),Cobalt Production-Reserves
+Key materials - Lithium Production - Reserves (from 1995),Lithium Production-Reserves
+Key materials - Graphite Production - Reserves (from 1995),Graphite Production-Reserves
+Key materials - Rare Earth Production - Reserves (from 1995),Rare Earth Production-Reserves
+Key materials - Cobalt and Lithium Prices,Cobalt and Lithium - Prices
+
+Regional consumption - by product:
+
+Oil: Regional consumption - by product - Barrels (from 1965),Oil - Regional Consumption 
+
+
+history prices:
+
+Oil: Spot crude prices ,Oil - Spot crude prices
+Oil: Crude prices since 1861,Oil - Crude prices since 1861
+Gas: Prices ,Gas - Prices 
+Coal: Prices,Coal - Prices
+
+
+class 4:
+
+Oil: Regional refining margins (from 1992),Oil - Regional refining margins
+
+class 5:
+
+Oil: Trade movements (from 1980),Oil - Trade movements
+Oil: Inter-area movements ,Oil - Inter-area movements
+Oil: Trade 2016-2017,Oil - Trade 2016- 2017
+Gas: Trade movements pipeline,Gas - Trade - pipeline
+Gas: Trade movements LNG,Gas - Trade movements LNG
+Gas: Trade 2016-2017,Gas - Trade 2016-2017
