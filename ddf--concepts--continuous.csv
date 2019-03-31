@@ -9,3 +9,4 @@ electricity_generation,Electricity Generation ,measure
 fuel_production,Fuel Production,measure
 fuel_consumption,Fuel Consumption,measure
 production_reserve,Production Reserve,measure
+installed_capacity,Installed Capacity,measure

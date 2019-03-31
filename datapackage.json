@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-03-30T16:42:49.549867+00:00",
+    "created": "2019-03-31T02:38:23.450370+00:00",
     "last_updated": "2017-10-08 02:05:17",
     "resources": [
         {
@@ -200,6 +200,31 @@
             }
         },
         {
+            "name": "ddf--datapoints--installed_capacity--by--geo--renewable--year",
+            "path": "ddf--datapoints--installed_capacity--by--geo--renewable--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "renewable"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "installed_capacity"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "renewable",
+                    "year"
+                ]
+            }
+        },
+        {
             "name": "ddf--datapoints--oil_proved_reserves--by--geo--year",
             "path": "ddf--datapoints--oil_proved_reserves--by--geo--year.csv",
             "schema": {
@@ -284,15 +309,15 @@
             }
         },
         {
-            "name": "ddf--datapoints--production_reserve--by--geo--mineral--year",
-            "path": "ddf--datapoints--production_reserve--by--geo--mineral--year.csv",
+            "name": "ddf--datapoints--production_reserve--by--geo--material--year",
+            "path": "ddf--datapoints--production_reserve--by--geo--material--year.csv",
             "schema": {
                 "fields": [
                     {
                         "name": "geo"
                     },
                     {
-                        "name": "mineral"
+                        "name": "material"
                     },
                     {
                         "name": "year"
@@ -303,7 +328,7 @@
                 ],
                 "primaryKey": [
                     "geo",
-                    "mineral",
+                    "material",
                     "year"
                 ]
             }
@@ -342,18 +367,18 @@
             }
         },
         {
-            "name": "ddf--entities--mineral",
-            "path": "ddf--entities--mineral.csv",
+            "name": "ddf--entities--material",
+            "path": "ddf--entities--material.csv",
             "schema": {
                 "fields": [
                     {
-                        "name": "mineral"
+                        "name": "material"
                     },
                     {
                         "name": "name"
                     }
                 ],
-                "primaryKey": "mineral"
+                "primaryKey": "material"
             }
         },
         {
@@ -443,11 +468,11 @@
             },
             {
                 "primaryKey": [
-                    "mineral"
+                    "material"
                 ],
                 "value": "name",
                 "resources": [
-                    "ddf--entities--mineral"
+                    "ddf--entities--material"
                 ]
             },
             {
@@ -574,6 +599,28 @@
             },
             {
                 "primaryKey": [
+                    "fuel",
+                    "geo",
+                    "year"
+                ],
+                "value": "installed_capacity",
+                "resources": [
+                    "ddf--datapoints--installed_capacity--by--geo--renewable--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "renewable",
+                    "year"
+                ],
+                "value": "installed_capacity",
+                "resources": [
+                    "ddf--datapoints--installed_capacity--by--geo--renewable--year"
+                ]
+            },
+            {
+                "primaryKey": [
                     "geo",
                     "year"
                 ],
@@ -615,12 +662,12 @@
             {
                 "primaryKey": [
                     "geo",
-                    "mineral",
+                    "material",
                     "year"
                 ],
                 "value": "production_reserve",
                 "resources": [
-                    "ddf--datapoints--production_reserve--by--geo--mineral--year"
+                    "ddf--datapoints--production_reserve--by--geo--material--year"
                 ]
             }
         ],

@@ -5,5 +5,5 @@ geo,Geo,entity_domain,
 unit,Unit,entity_domain,
 fuel,Fuel,entity_domain,
 renewable,Renewables,entity_set,fuel
-mineral,Mineral,entity_domain,
+material,Material,entity_domain,
 domain,Domain,string,
