@@ -1,5 +1,5 @@
 # exclude the source files
-etl/source/*
+# etl/source/*
 *.bak
 
 # Tempfiles of OSX/Win

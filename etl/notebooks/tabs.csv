@@ -1,13 +1,16 @@
 full_name,tab_name
 Primary Energy: Consumption - Mtoe (from 1965),Primary Energy Consumption
-Primary Energy: Consumption by fuel type - Mtoe (2016-2017),Primary Energy - Cons by fuel
+Primary Energy: Consumption by fuel type - Mtoe (2017-2018),Primary Energy - Cons by fuel
+Primary Energy: Consumption per capita - Gigajoule per capita (from 1965),Primary Energy - Cons capita
 Oil: Proved reserves,Oil - Proved reserves
 Oil: Proved reserves - Barrels (from 1980),Oil - Proved reserves history
 Oil: Production - Barrels (from 1965),Oil Production - Barrels
 Oil: Production - Tonnes (from 1965),Oil Production - Tonnes
+Oil: Crude oil and condensate production - Barrels (from 2000),Oil Production - Crude Conds
+Oil: Natural Gas Liquids production - Barrels (from 2000),Oil Production - NGLs
 Oil: Consumption - Barrels (from 1965),Oil Consumption - Barrels
 Oil: Consumption - Tonnes (from 1965),Oil Consumption - Tonnes
-Oil: Consumption - Mtoe (from 1965),OIl Consumption - Mtoe
+Oil: Consumption - Mtoe (from 1965),Oil Consumption - Mtoe
 Oil: Regional consumption - by product - Barrels (from 1965),Oil - Regional Consumption 
 Oil: Spot crude prices ,Oil - Spot crude prices
 Oil: Crude prices since 1861,Oil - Crude prices since 1861
@@ -16,7 +19,7 @@ Oil: Refining capacity (from 1965),Oil - Refining capacity
 Oil: Regional refining margins (from 1992),Oil - Regional refining margins
 Oil: Trade movements (from 1980),Oil - Trade movements
 Oil: Inter-area movements ,Oil - Inter-area movements 
-Oil: Trade 2016-2017,Oil - Trade 2016- 2017
+Oil: Trade 2017 - 2018,Oil - Trade 2017 - 2018
 Gas: Proved reserves,Gas - Proved reserves
 Gas: Proved reserves - Bcm (from 1980),Gas - Proved reserves history 
 Gas: Production - Bcm (from 1970),Gas Production - Bcm
@@ -25,31 +28,36 @@ Gas: Production - Mtoe (from 1970),Gas Production - Mtoe
 Gas: Consumption - Bcm (from 1965),Gas Consumption - Bcm
 Gas: Consumption - Bcf (from 1965),Gas Consumption - Bcf
 Gas: Consumption - Mtoe (from 1965),Gas Consumption - Mtoe
-Gas: Trade movements pipeline,Gas - Trade - pipeline
-Gas: Trade movements LNG,Gas - Trade movements LNG
-Gas: Trade 2016-2017,Gas - Trade 2016-2017
 Gas: Prices ,Gas - Prices 
+Gas: Inter-regional trade,Gas - Inter-regional trade
+Gas: LNG imports,Gas - LNG imports
+Gas: LNG exports,Gas - LNG exports
+Gas: Trade movements LNG,Gas - Trade movts LNG
+Gas: Trade movements pipeline,Gas - Trade movts - pipeline
 Coal: Reserves,Coal - Reserves
-Coal: Prices,Coal - Prices
 Coal: Production - Tonnes (from 1981),Coal Production - Tonnes
 Coal: Production - Mtoe (from 1981),Coal Production - Mtoe
 Coal: Consumption - Mtoe (from 1965),Coal Consumption - Mtoe
+Coal: Prices,Coal - Prices
+Coal: Trade movements,Coal - Trade movements
+Coal: Inter-area movements,Coal - Inter area movts
 Nuclear Energy - Generation - TWh (from 1965),Nuclear Generation - TWh
 Nuclear Energy - Consumption - Mtoe (from 1965),Nuclear Consumption - Mtoe
 Hydroelectricity - Generation - TWh (from 1965),Hydro Generation - TWh
 Hydroelectricity - Consumption - Mtoe (from 1965),Hydro Consumption - Mtoe
-Renewables - Other renewables generation -Twh (from 1965),Other renewables - TWh
-Renewables - Other renewables consumption - Mtoe (from 1965),Other renewables - Mtoe
-Renewables - Solar generation - TWh (from 1965),Solar Consumption - TWh
+Renewables - Generation -Twh (from 1965),Renewables - TWh
+Renewables - Generation - Mtoe (from 1965),Renewables - Mtoe
+Renewables - Generation by source - TWh,Renewables Generation by source
+Renewables - Solar generation - TWh (from 1965),Solar Generation - TWh
 Renewables - Solar consumption - Mtoe (from 1965),Solar Consumption - Mtoe
-Renewables - Wind generation - TWh (from 1965),Wind Consumption - TWh 
+Renewables - Wind generation - TWh (from 1965),Wind Generation - TWh 
 Renewables - Wind consumption - Mtoe (from 1965),Wind Consumption - Mtoe
 "Renewables - Geothermal, Biomass and Other generation - TWh  (from 1965)",Geo Biomass Other - TWh
 "Renewables - Geothermal, Biomass and Other - Mtoe  (from 1965)",Geo Biomass Other - Mtoe
 Renewables - Biofuels production - Kboe/d (from 1990),Biofuels Production - Kboed
 Renewables - Biofuels production - Ktoe (from 1990),Biofuels Production - Ktoe
 Electricity generation - TWh (from 1985),Electricity Generation 
-Electricity generation by fuel - TWh (2016-2017),Elec Gen by fuel
+Electricity generation by fuel - TWh (2017- 2018),Elec Gen by fuel
 Electricity generation from oil -TWh (from 1985),Elec Gen from Oil
 Electricity generation from gas - TWh (from 1985),Elec Gen from Gas
 Electricity generation from coal - TWh (from 1985),Elec Gen from Coal
