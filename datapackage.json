@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-04-01T10:02:10.825674+00:00",
+    "created": "2019-08-30T15:36:20.539385+00:00",
     "last_updated": "2017-10-08 02:05:17",
     "resources": [
         {
@@ -300,6 +300,27 @@
                     },
                     {
                         "name": "primary_energy_consumption"
+                    }
+                ],
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ]
+            }
+        },
+        {
+            "name": "ddf--datapoints--primary_energy_consumption_per_capita--by--geo--year",
+            "path": "ddf--datapoints--primary_energy_consumption_per_capita--by--geo--year.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "geo"
+                    },
+                    {
+                        "name": "year"
+                    },
+                    {
+                        "name": "primary_energy_consumption_per_capita"
                     }
                 ],
                 "primaryKey": [
@@ -657,6 +678,16 @@
                 "value": "primary_energy_consumption",
                 "resources": [
                     "ddf--datapoints--primary_energy_consumption--by--geo--year"
+                ]
+            },
+            {
+                "primaryKey": [
+                    "geo",
+                    "year"
+                ],
+                "value": "primary_energy_consumption_per_capita",
+                "resources": [
+                    "ddf--datapoints--primary_energy_consumption_per_capita--by--geo--year"
                 ]
             },
             {

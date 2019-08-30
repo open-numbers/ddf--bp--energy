@@ -1,5 +1,6 @@
 concept,name,concept_type
 primary_energy_consumption,Primary Energy Consumption,measure
+primary_energy_consumption_per_capita,Primary Energy - Cons capita,measure
 carbon_dioxide_emissions,Carbon Dioxide Emissions,measure
 oil_refinery_throughput,Oil - Refinery throughput,measure
 oil_refining_capacity,Oil - Refining capacity,measure

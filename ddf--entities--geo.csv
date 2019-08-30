@@ -20,21 +20,29 @@ chile,Chile
 china,China
 china_hong_kong_sar,China Hong Kong SAR
 colombia,Colombia
+costa_rica,Costa Rica
 croatia,Croatia
+cuba,Cuba
 curacao,Curacao
 cyprus,Cyprus
 czech_republic,Czech Republic
+dr_congo,DR Congo
 denmark,Denmark
 eastern_africa,Eastern Africa
 ecuador,Ecuador
 egypt,Egypt
+el_salvador,El Salvador
 equatorial_guinea,Equatorial Guinea
 estonia,Estonia
+ethiopia,Ethiopia
 finland,Finland
 france,France
 gabon,Gabon
 germany,Germany
 greece,Greece
+guadeloupe,Guadeloupe
+guatemala,Guatemala
+honduras,Honduras
 hungary,Hungary
 iceland,Iceland
 india,India
@@ -45,29 +53,35 @@ ireland,Ireland
 israel,Israel
 italy,Italy
 japan,Japan
+jordan,Jordan
 kazakhstan,Kazakhstan
+kenya,Kenya
 kuwait,Kuwait
 latvia,Latvia
 libya,Libya
 lithuania,Lithuania
 luxembourg,Luxembourg
-macedonia,Macedonia
+madagascar,Madagascar
 malaysia,Malaysia
 mexico,Mexico
 middle_africa,Middle Africa
 mongolia,Mongolia
 morocco,Morocco
+mozambique,Mozambique
 myanmar,Myanmar
 netherlands,Netherlands
 netherlands_antilles,Netherlands Antilles
+new_caledonia,New Caledonia
 new_zealand,New Zealand
+nicaragua,Nicaragua
 nigeria,Nigeria
+north_macedonia,North Macedonia
 norway,Norway
 oman,Oman
 other_africa,Other Africa
 other_asia_pacific,Other Asia Pacific
-other_caribbean,Other Caribbean
 other_cis,Other CIS
+other_caribbean,Other Caribbean
 other_europe,Other Europe
 other_middle_east,Other Middle East
 other_north_africa,Other North Africa
@@ -83,6 +97,7 @@ poland,Poland
 portugal,Portugal
 qatar,Qatar
 republic_of_congo,Republic of Congo
+rest_of_world,Rest of World
 romania,Romania
 russian_federation,Russian Federation
 saudi_arabia,Saudi Arabia
@@ -113,32 +128,16 @@ trinidad_tobago,Trinidad & Tobago
 tunisia,Tunisia
 turkey,Turkey
 turkmenistan,Turkmenistan
+us,US
+ussr,USSR
 ukraine,Ukraine
 united_arab_emirates,United Arab Emirates
 united_kingdom,United Kingdom
-us,US
-ussr,USSR
+uruguay,Uruguay
 uzbekistan,Uzbekistan
 venezuela,Venezuela
 vietnam,Vietnam
 western_africa,Western Africa
 yemen,Yemen
-zimbabwe,Zimbabwe
-democratic_republic_of_congo,Democratic Republic of Congo
-cuba,Cuba
-madagascar,Madagascar
-new_caledonia,New Caledonia
 zambia,Zambia
-mozambique,Mozambique
-costa_rica,Costa Rica
-el_salvador,El Salvador
-ethiopia,Ethiopia
-guadeloupe,Guadeloupe
-guatemala,Guatemala
-honduras,Honduras
-kenya,Kenya
-nicaragua,Nicaragua
-papua_new_guinea,Papua New Guinea
-russia,Russia
-jordan,Jordan
-uruguay,Uruguay
+zimbabwe,Zimbabwe
