@@ -1,9 +1,0 @@
-concept,name,concept_type,domain
-name,Name,string,
-year,Year,time,
-geo,Geo,entity_domain,
-unit,Unit,entity_domain,
-fuel,Fuel,entity_domain,
-renewable,Renewables,entity_set,fuel
-material,Material,entity_domain,
-domain,Domain,string,

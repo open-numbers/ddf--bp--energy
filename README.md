@@ -2,7 +2,7 @@
 
 source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 
-for now, only part of data(Production, Consumption, Reserves) were imported. Other data (Prices, Trade) were not imported
+for now, only part of data(Production, Consumption) were imported. Other data (Prices, Trade) were not imported
 
 
 imported indicators:
@@ -41,7 +41,3 @@ imported indicators:
 * Primary Energy Consumption
 * Electricity Generation
 * Carbon Dioxide Emissions
-* Oil - Refinery throughput
-* Oil - Refining capacity
-* Renewable Energy installed capacity
-* Production Reserves by key materials
