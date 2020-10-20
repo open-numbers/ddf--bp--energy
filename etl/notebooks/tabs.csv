@@ -1,33 +1,35 @@
 full_name,tab_name
-Primary Energy: Consumption - Mtoe (from 1965),Primary Energy Consumption
-Primary Energy: Consumption by fuel type - Mtoe (2017-2018),Primary Energy - Cons by fuel
+Primary Energy: Consumption - Exajoules (from 1965),Primary Energy Consumption
+Primary Energy: Consumption by fuel type - Exajoules (2018-2019),Primary Energy - Cons by fuel
 Primary Energy: Consumption per capita - Gigajoule per capita (from 1965),Primary Energy - Cons capita
+Carbon Dioxide Emissions (from 1965),Carbon Dioxide Emissions
 Oil: Proved reserves,Oil - Proved reserves
 Oil: Proved reserves - Barrels (from 1980),Oil - Proved reserves history
 Oil: Production - Barrels (from 1965),Oil Production - Barrels
 Oil: Production - Tonnes (from 1965),Oil Production - Tonnes
 Oil: Crude oil and condensate production - Barrels (from 2000),Oil Production - Crude Conds
 Oil: Natural Gas Liquids production - Barrels (from 2000),Oil Production - NGLs
+Oil: Total liquids consumption - Barrels (from 1965),Total Liquids - Consumption
 Oil: Consumption - Barrels (from 1965),Oil Consumption - Barrels
 Oil: Consumption - Tonnes (from 1965),Oil Consumption - Tonnes
-Oil: Consumption - Mtoe (from 1965),Oil Consumption - Mtoe
+Oil: Consumption - Exajoules (from 1965),Oil Consumption - EJ
 Oil: Regional consumption - by product - Barrels (from 1965),Oil - Regional Consumption 
 Oil: Spot crude prices ,Oil - Spot crude prices
 Oil: Crude prices since 1861,Oil - Crude prices since 1861
 Oil: Refinery throughput (from 1980),Oil - Refinery throughput
 Oil: Refining capacity (from 1965),Oil - Refining capacity
-Oil: Regional refining margins (from 1992),Oil - Regional refining margins
+Oil: Regional refining margins (from 2000),Oil - Regional refining margins
 Oil: Trade movements (from 1980),Oil - Trade movements
 Oil: Inter-area movements ,Oil - Inter-area movements 
-Oil: Trade 2017 - 2018,Oil - Trade 2017 - 2018
+Oil: Trade 2018 - 2019,Oil - Trade 2018 - 2019
 Gas: Proved reserves,Gas - Proved reserves
 Gas: Proved reserves - Bcm (from 1980),Gas - Proved reserves history 
 Gas: Production - Bcm (from 1970),Gas Production - Bcm
 Gas: Production - Bcf (from 1970),Gas Production - Bcf
-Gas: Production - Mtoe (from 1970),Gas Production - Mtoe
+Gas: Production - Exajoules (from 1970),Gas Production - EJ
 Gas: Consumption - Bcm (from 1965),Gas Consumption - Bcm
 Gas: Consumption - Bcf (from 1965),Gas Consumption - Bcf
-Gas: Consumption - Mtoe (from 1965),Gas Consumption - Mtoe
+Gas: Consumption - Exajoules (from 1965),Gas Consumption - EJ
 Gas: Prices ,Gas - Prices 
 Gas: Inter-regional trade,Gas - Inter-regional trade
 Gas: LNG imports,Gas - LNG imports
@@ -36,38 +38,41 @@ Gas: Trade movements LNG,Gas - Trade movts LNG
 Gas: Trade movements pipeline,Gas - Trade movts - pipeline
 Coal: Reserves,Coal - Reserves
 Coal: Production - Tonnes (from 1981),Coal Production - Tonnes
-Coal: Production - Mtoe (from 1981),Coal Production - Mtoe
-Coal: Consumption - Mtoe (from 1965),Coal Consumption - Mtoe
+Coal: Production - Exajoules (from 1981),Coal Production - EJ
+Coal: Consumption - Exajoules (from 1965),Coal Consumption - EJ
 Coal: Prices,Coal - Prices
 Coal: Trade movements,Coal - Trade movements
 Coal: Inter-area movements,Coal - Inter area movts
 Nuclear Energy - Generation - TWh (from 1965),Nuclear Generation - TWh
-Nuclear Energy - Consumption - Mtoe (from 1965),Nuclear Consumption - Mtoe
+Nuclear Energy - Consumption - Exajoules (from 1965),Nuclear Consumption - EJ
 Hydroelectricity - Generation - TWh (from 1965),Hydro Generation - TWh
-Hydroelectricity - Consumption - Mtoe (from 1965),Hydro Consumption - Mtoe
-Renewables - Generation -Twh (from 1965),Renewables - TWh
-Renewables - Generation - Mtoe (from 1965),Renewables - Mtoe
-Renewables - Generation by source - TWh,Renewables Generation by source
-Renewables - Solar generation - TWh (from 1965),Solar Generation - TWh
-Renewables - Solar consumption - Mtoe (from 1965),Solar Consumption - Mtoe
-Renewables - Wind generation - TWh (from 1965),Wind Generation - TWh 
-Renewables - Wind consumption - Mtoe (from 1965),Wind Consumption - Mtoe
-"Renewables - Geothermal, Biomass and Other generation - TWh  (from 1965)",Geo Biomass Other - TWh
-"Renewables - Geothermal, Biomass and Other - Mtoe  (from 1965)",Geo Biomass Other - Mtoe
-Renewables - Biofuels production - Kboe/d (from 1990),Biofuels Production - Kboed
-Renewables - Biofuels production - Ktoe (from 1990),Biofuels Production - Ktoe
-Electricity generation - TWh (from 1985),Electricity Generation 
-Electricity generation by fuel - TWh (2017- 2018),Elec Gen by fuel
-Electricity generation from oil -TWh (from 1985),Elec Gen from Oil
-Electricity generation from gas - TWh (from 1985),Elec Gen from Gas
-Electricity generation from coal - TWh (from 1985),Elec Gen from Coal
-Electricity generation from other - TWh (from 1985),Elec Gen from Other
-Carbon Dioxide Emissions (from 1965),Carbon Dioxide Emissions
-Key materials - Cobalt Production - Reserves (from 1995),Cobalt Production-Reserves
-Key materials - Lithium Production - Reserves (from 1995),Lithium Production-Reserves
-Key materials - Graphite Production - Reserves (from 1995),Graphite Production-Reserves
-Key materials - Rare Earth Production - Reserves (from 1995),Rare Earth Production-Reserves
-Key materials - Cobalt and Lithium Prices,Cobalt and Lithium - Prices
-Renewable Energy - Geothermal (Installed capacity),Geothermal Capacity
-Renewable Energy - Solar (Installed capacity),Solar Capacity
-Renewable Energy - Wind  (Installed capacity),Wind Capacity
+Hydroelectricity - Consumption - Exajoules (from 1965),Hydro Consumption - EJ
+Renewables - Consumption - Exajoules (from 1965),Renewables Consumption - EJ
+Renewables - Renewable Power - Exajoules (from 1965),Renewables Power - EJ
+Renewables - Renewable Power - Twh (from 1965),Renewables Power - Twh
+Renewables - Renewable Power generation - TWh (from 1965),Renewables Generation by source
+Renewables - Generation by source - TWh,Solar Generation - TWh
+Renewables - Solar generation - TWh (from 1965),Solar Consumption - EJ
+Renewables - Solar consumption - Exajoules (from 1965),Wind Generation -TWh
+Renewables - Wind generation - TWh (from 1965),Wind Consumption - EJ
+Renewables - Wind consumption - Exajoules (from 1965),Geo Biomass Other - TWh
+"Renewables - Geothermal, Biomass and Other generation - TWh  (from 1965)",Geo Biomass Other - EJ
+"Renewables - Geothermal, Biomass and Other - Exajoules (from 1965)",Biofuels Production - Kboed
+Renewables - Biofuels production - Kboe/d (from 1990),Biofuels Production - PJ
+Renewables - Biofuels production - Petajoules (from 1990),Biofuels Consumption - Kboed
+Renewables - Biofuels consumption - Kboe/d (from 1990),Biofuels Consumption - PJ
+Renewables - Biofuels consumption - Petajoules (from 1990),Electricity Generation 
+Electricity generation - TWh (from 1985),Elec Gen by fuel
+Electricity generation by fuel - TWh (2018 - 2019),Elec Gen from Oil
+Electricity generation from oil -TWh (from 1985),Elec Gen from Gas
+Electricity generation from gas - TWh (from 1985),Elec Gen from Coal
+Electricity generation from coal - TWh (from 1985),Elec Gen from Other
+Electricity generation from other - TWh (from 1985),Cobalt Production-Reserves
+Key materials - Cobalt Production - Reserves (from 1995),Lithium Production-Reserves
+Key materials - Lithium Production - Reserves (from 1995),Graphite Production-Reserves
+Key materials - Graphite Production - Reserves (from 1995),Rare Earth Production-Reserves
+Key materials - Rare Earth Production - Reserves (from 1995),Cobalt and Lithium - Prices
+Key materials - Cobalt and Lithium Prices,Geothermal Capacity
+Renewable Energy - Geothermal (Installed capacity),Solar Capacity
+Renewable Energy - Solar (Installed capacity),Wind Capacity
+Renewable Energy - Wind  (Installed capacity),Approximate conversion factors
