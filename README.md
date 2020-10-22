@@ -22,22 +22,32 @@ imported indicators:
 * Gas Consumption – Bcf
 * Gas Consumption – tonnes
 * Coal Production - Tonnes
-* Coal Production - Mtoe
-* Coal Consumption -  Mtoe
+* Coal Production - Exajoules
+* Coal Consumption -  Exajoules
 * Nuclear Consumption - TWh
-* Nuclear Consumption - Mtoe
+* Nuclear Consumption - Exajoules
 * Hydro Consumption - TWh
-* Hydro Consumption - Mtoe
+* Hydro Consumption - Exajoules
 * Other renewables -TWh
-* Other renewables - Mtoe
+* Other renewables - Exajoules
 * Solar Consumption - TWh
-* Solar Consumption - Mtoe
+* Solar Consumption - Exajoules
 * Wind Consumption - TWh
-* Wind Consumption - Mtoe
+* Wind Consumption - Exajoules
 * Geo Biomass Other - TWh
-* Geo Biomass Other - Mtoe
+* Geo Biomass Other - Exajoules
 * Biofuels Production - Kboe/d
-* Biofuels Production - Ktoe
+* Biofuels Production - Petajoules
+* Biofuels Consumption - Kboe/d
+* Biofuels Consumption - Petajoules
+* Biodiesel_Production - Kboe/d
+* Biodiesel Production - Petajoules
+* Biodiesel Consumption - Kboe/d
+* Biodiesel Consumption - Petajoules
+* Biogasoline_Production - Kboe/d
+* Biogasoline Production - Petajoules
+* Biogasoline Consumption - Kboe/d
+* Biogasoline Consumption - Petajoules
 * Primary Energy Consumption
 * Electricity Generation
 * Carbon Dioxide Emissions
