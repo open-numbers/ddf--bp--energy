@@ -1,7 +1,9 @@
 geo,name
+africa,Africa
 algeria,Algeria
 angola,Angola
 argentina,Argentina
+asia_pacific,Asia Pacific
 australia,Australia
 austria,Austria
 azerbaijan,Azerbaijan
@@ -13,7 +15,9 @@ bolivia,Bolivia
 brazil,Brazil
 brunei,Brunei
 bulgaria,Bulgaria
+cis,CIS
 canada,Canada
+canada_mexico,Canada & Mexico
 central_america,Central America
 chad,Chad
 chile,Chile
@@ -35,6 +39,7 @@ el_salvador,El Salvador
 equatorial_guinea,Equatorial Guinea
 estonia,Estonia
 ethiopia,Ethiopia
+europe,Europe
 finland,Finland
 france,France
 gabon,Gabon
@@ -64,6 +69,7 @@ madagascar,Madagascar
 malaysia,Malaysia
 mexico,Mexico
 middle_africa,Middle Africa
+middle_east,Middle East
 mongolia,Mongolia
 morocco,Morocco
 mozambique,Mozambique
