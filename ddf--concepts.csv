@@ -1,5 +1,4 @@
 concept,concept_type,name
-geo,entity_domain,Geo
 biodiesel_consumption_kboed,measure,Biodiesel Consumption Kboed
 biodiesel_consumption_petajoules,measure,Biodiesel Consumption Petajoules
 biodiesel_production_kboed,measure,Biodiesel Production Kboed
@@ -12,12 +11,10 @@ biogasoline_consumption_kboed,measure,Biogasoline Consumption Kboed
 biogasoline_consumption_petajoules,measure,Biogasoline Consumption Petajoules
 biogasoline_production_kboed,measure,Biogasoline Production Kboed
 biogasoline_production_petajoules,measure,Biogasoline Production Petajoules
-carbon_dioxide_emissions,measure,Carbon Dioxide Emissions
 coal_consumption_exajoules,measure,Coal Consumption Exajoules
 coal_electricity_generation_twh,measure,Coal Electricity Generation Twh
 coal_production_exajoules,measure,Coal Production Exajoules
 coal_production_tonne,measure,Coal Production Tonne
-electricity_generation,measure,Electricity Generation
 gas_consumption_bcf,measure,Gas Consumption Bcf
 gas_consumption_bcm,measure,Gas Consumption Bcm
 gas_consumption_exajoules,measure,Gas Consumption Exajoules
@@ -25,12 +22,10 @@ gas_electricity_generation_twh,measure,Gas Electricity Generation Twh
 gas_production_bcf,measure,Gas Production Bcf
 gas_production_bcm,measure,Gas Production Bcm
 gas_production_exajoules,measure,Gas Production Exajoules
-gas_proved_reserves,measure,Gas Proved Reserves
 geo_biomass_other_consumption_exajoules,measure,Geo Biomass Other Consumption Exajoules
 geo_biomass_other_electricity_generation_twh,measure,Geo Biomass Other Electricity Generation Twh
 hydro_consumption_exajoules,measure,Hydro Consumption Exajoules
 hydro_electricity_generation_twh,measure,Hydro Electricity Generation Twh
-installed_capacity,measure,Installed Capacity
 nuclear_consumption_exajoules,measure,Nuclear Consumption Exajoules
 nuclear_electricity_generation_twh,measure,Nuclear Electricity Generation Twh
 oil_consumption_barrel,measure,Oil Consumption Barrel
@@ -39,17 +34,8 @@ oil_consumption_tonne,measure,Oil Consumption Tonne
 oil_electricity_generation_twh,measure,Oil Electricity Generation Twh
 oil_production_barrel,measure,Oil Production Barrel
 oil_production_tonne,measure,Oil Production Tonne
-oil_proved_reserves,measure,Oil Proved Reserves
-oil_refinery_throughput,measure,Oil Refinery Throughput
-oil_refining_capacity,measure,Oil Refining Capacity
 other_electricity_generation_twh,measure,Other Electricity Generation Twh
-primary_energy_consumption,measure,Primary Energy Consumption
-primary_energy_consumption_per_capita,measure,Primary Energy Consumption Per Capita
-production_reserve,measure,Production Reserve
 solar_consumption_exajoules,measure,Solar Consumption Exajoules
 solar_electricity_generation_twh,measure,Solar Electricity Generation Twh
 wind_consumption_exajoules,measure,Wind Consumption Exajoules
 wind_electricity_generation_twh,measure,Wind Electricity Generation Twh
-geo_name,string,Geo Name
-name,string,Name
-year,time,Year
