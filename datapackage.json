@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2020-11-05T00:32:10.688920+00:00",
+    "created": "2020-11-05T18:57:40.552125+00:00",
     "last_updated": "2017-10-08 02:05:17",
     "resources": [
         {
@@ -44,6 +44,24 @@
                     },
                     {
                         "name": "domain"
+                    }
+                ],
+                "primaryKey": "concept"
+            }
+        },
+        {
+            "name": "ddf--concepts",
+            "path": "ddf--concepts.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "concept"
+                    },
+                    {
+                        "name": "concept_type"
+                    },
+                    {
+                        "name": "name"
                     }
                 ],
                 "primaryKey": "concept"
@@ -1179,6 +1197,7 @@
                 ],
                 "value": "concept_type",
                 "resources": [
+                    "ddf--concepts",
                     "ddf--concepts--continuous",
                     "ddf--concepts--discrete"
                 ]
@@ -1198,6 +1217,7 @@
                 ],
                 "value": "name",
                 "resources": [
+                    "ddf--concepts",
                     "ddf--concepts--continuous",
                     "ddf--concepts--discrete"
                 ]
