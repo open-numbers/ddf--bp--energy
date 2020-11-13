@@ -35,6 +35,7 @@ The following indicators have new units:
 * Oil Consumption – Exajoules
 * Solar Consumption – Exajoules
 * Wind Consumption –  Exajoules
+* Primary Energy Consumption – Exajoules
  
 
 ### All imported indicators:
