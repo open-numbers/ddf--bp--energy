@@ -4,7 +4,7 @@ source: https://www.bp.com/en/global/corporate/energy-economics/statistical-revi
 
 for now, only part of data(Production, Consumption) were imported. Other data (Prices, Trade) were not imported
 
-###Highlights
+### Highlights
 
 * All Indicators are updated to 2019
 * Energy units have been changed from million tonnes of oil equivalent (mtoe)  to exajoules
@@ -36,7 +36,7 @@ The following indicators have new units:
 * Wind Consumption –  Exajoules
  
 
-###All imported indicators:
+### All imported indicators:
 
 * Oil - Proved reserves history
 * Oil Production – Barrels
