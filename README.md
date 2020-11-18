@@ -1,7 +1,7 @@
-# ddf––bp––energy
-Date: 2020–11–13
+# ddf--bp--energy
+Date: 2020-11-13
 
-source: https://www.bp.com/en/global/corporate/energy–economics/statistical–review–of–world–energy.html
+source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
 
 for now, only part of data(Production, Consumption) were imported. Other data (Prices, Trade) were not imported
 
