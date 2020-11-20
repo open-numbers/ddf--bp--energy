@@ -1,45 +1,41 @@
 concept,concept_type,name
-geo,entity_domain,Geo
-biofuels_production_kboed,measure,Biofuels Production - Kboed
-biofuels_production_ktoe,measure,Biofuels Production - Ktoe
-carbon_dioxide_emissions,measure,Carbon Dioxide Emissions
-coal_consumption_mtoe,measure,Coal Consumption - Mtoe
-coal_production_mtoe,measure,Coal Production - Mtoe
-coal_production_tonnes,measure,Coal Production - Tonnes
-elec_gen_from_coal,measure,Elec Gen from Coal
-elec_gen_from_gas,measure,Elec Gen from Gas
-elec_gen_from_oil,measure,Elec Gen from Oil
-elec_gen_from_other,measure,Elec Gen from Other
-electricity_generation,measure,Electricity Generation
-gas_proved_reserves_history,measure,Gas - Proved reserves history
-gas_consumption_bcf,measure,Gas Consumption - Bcf
-gas_consumption_bcm,measure,Gas Consumption - Bcm
-gas_consumption_mtoe,measure,Gas Consumption - Mtoe
-gas_production_bcf,measure,Gas Production - Bcf
-gas_production_bcm,measure,Gas Production - Bcm
-gas_production_mtoe,measure,Gas Production - Mtoe
-geo_biomass_other_mtoe,measure,Geo Biomass Other - Mtoe
-geo_biomass_other_twh,measure,Geo Biomass Other - TWh
-graphite_production_reserves,measure,Graphite Production-Reserves
-hydro_consumption_mtoe,measure,Hydro Consumption - Mtoe
-hydro_generation_twh,measure,Hydro Generation - TWh
-nuclear_consumption_mtoe,measure,Nuclear Consumption - Mtoe
-nuclear_generation_twh,measure,Nuclear Generation - TWh
-oil_consumption_mtoe,measure,OIl Consumption - Mtoe
-oil_proved_reserves_history,measure,Oil - Proved reserves history
-oil_refinery_throughput,measure,Oil - Refinery throughput
-oil_refining_capacity,measure,Oil - Refining capacity
-oil_consumption_barrels,measure,Oil Consumption - Barrels
-oil_consumption_tonnes,measure,Oil Consumption - Tonnes
-oil_production_barrels,measure,Oil Production - Barrels
-oil_production_tonnes,measure,Oil Production - Tonnes
-other_renewables_mtoe,measure,Other renewables - Mtoe
-other_renewables_twh,measure,Other renewables - TWh
-primary_energy_consumption,measure,Primary Energy Consumption
-solar_consumption_mtoe,measure,Solar Consumption - Mtoe
-solar_consumption_twh,measure,Solar Consumption - TWh
-wind_consumption_mtoe,measure,Wind Consumption - Mtoe
-wind_consumption_twh,measure,Wind Consumption - TWh
-geo_name,string,Geo Name
-name,string,Name
-year,time,Year
+biodiesel_consumption_kboed,measure,Biodiesel Consumption Kboed
+biodiesel_consumption_petajoules,measure,Biodiesel Consumption Petajoules
+biodiesel_production_kboed,measure,Biodiesel Production Kboed
+biodiesel_production_petajoules,measure,Biodiesel Production Petajoules
+biofuel_consumption_kboed,measure,Biofuel Consumption Kboed
+biofuel_consumption_petajoules,measure,Biofuel Consumption Petajoules
+biofuel_production_kboed,measure,Biofuel Production Kboed
+biofuel_production_petajoules,measure,Biofuel Production Petajoules
+biogasoline_consumption_kboed,measure,Biogasoline Consumption Kboed
+biogasoline_consumption_petajoules,measure,Biogasoline Consumption Petajoules
+biogasoline_production_kboed,measure,Biogasoline Production Kboed
+biogasoline_production_petajoules,measure,Biogasoline Production Petajoules
+coal_consumption_exajoules,measure,Coal Consumption Exajoules
+coal_electricity_generation_twh,measure,Coal Electricity Generation Twh
+coal_production_exajoules,measure,Coal Production Exajoules
+coal_production_tonne,measure,Coal Production Tonne
+gas_consumption_bcf,measure,Gas Consumption Bcf
+gas_consumption_bcm,measure,Gas Consumption Bcm
+gas_consumption_exajoules,measure,Gas Consumption Exajoules
+gas_electricity_generation_twh,measure,Gas Electricity Generation Twh
+gas_production_bcf,measure,Gas Production Bcf
+gas_production_bcm,measure,Gas Production Bcm
+gas_production_exajoules,measure,Gas Production Exajoules
+geo_biomass_other_consumption_exajoules,measure,Geo Biomass Other Consumption Exajoules
+geo_biomass_other_electricity_generation_twh,measure,Geo Biomass Other Electricity Generation Twh
+hydro_consumption_exajoules,measure,Hydro Consumption Exajoules
+hydro_electricity_generation_twh,measure,Hydro Electricity Generation Twh
+nuclear_consumption_exajoules,measure,Nuclear Consumption Exajoules
+nuclear_electricity_generation_twh,measure,Nuclear Electricity Generation Twh
+oil_consumption_barrel,measure,Oil Consumption Barrel
+oil_consumption_exajoules,measure,Oil Consumption Exajoules
+oil_consumption_tonne,measure,Oil Consumption Tonne
+oil_electricity_generation_twh,measure,Oil Electricity Generation Twh
+oil_production_barrel,measure,Oil Production Barrel
+oil_production_tonne,measure,Oil Production Tonne
+other_electricity_generation_twh,measure,Other Electricity Generation Twh
+solar_consumption_exajoules,measure,Solar Consumption Exajoules
+solar_electricity_generation_twh,measure,Solar Electricity Generation Twh
+wind_consumption_exajoules,measure,Wind Consumption Exajoules
+wind_electricity_generation_twh,measure,Wind Electricity Generation Twh
