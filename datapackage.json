@@ -7,7 +7,7 @@
     "description": "",
     "author": "",
     "license": "",
-    "created": "2020-11-05T20:25:37.573519+00:00",
+    "created": "2024-08-21T02:54:34.232853+00:00",
     "resources": [
         {
             "name": "ddf--concepts--continuous",
@@ -24,7 +24,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -45,7 +47,9 @@
                         "name": "domain"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -63,7 +67,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -1139,7 +1145,9 @@
                         "name": "is--renewable"
                     }
                 ],
-                "primaryKey": "fuel"
+                "primaryKey": [
+                    "fuel"
+                ]
             }
         },
         {
@@ -1154,7 +1162,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "geo"
+                "primaryKey": [
+                    "geo"
+                ]
             }
         },
         {
@@ -1169,7 +1179,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "material"
+                "primaryKey": [
+                    "material"
+                ]
             }
         },
         {
@@ -1184,7 +1196,9 @@
                         "name": "name"
                     }
                 ],
-                "primaryKey": "unit"
+                "primaryKey": [
+                    "unit"
+                ]
             }
         }
     ],
