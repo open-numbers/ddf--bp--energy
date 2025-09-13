@@ -1,13 +1,80 @@
-concept,name,concept_type
-primary_energy_consumption,Primary Energy Consumption,measure
-primary_energy_consumption_per_capita,Primary Energy - Cons capita,measure
-carbon_dioxide_emissions,Carbon Dioxide Emissions,measure
-oil_refinery_throughput,Oil - Refinery throughput,measure
-oil_refining_capacity,Oil - Refining capacity,measure
-oil_proved_reserves,Oil - Proved reserves history,measure
-gas_proved_reserves,Gas - Proved reserves history ,measure
-electricity_generation,Electricity Generation ,measure
-fuel_production,Fuel Production,measure
-fuel_consumption,Fuel Consumption,measure
-production_reserve,Production Reserve,measure
-installed_capacity,Installed Capacity,measure
+concept,concept_type,name
+total_energy_supply_tes_exajoules,measure,Total Energy Supply (TES) -exajoules
+tes_per_capita,measure,TES per Capita
+co2_from_energy,measure,CO2 from Energy
+natural_gas_flaring,measure,Natural Gas Flaring
+co2_from_flaring,measure,CO2 from Flaring
+co2_process_emissions_methane,measure,"CO2-Process Emissions, Methane"
+co2e_emissions,measure,CO2e Emissions 
+ccus_capture_capacity,measure,CCUS Capture Capacity
+oil_proved_reserves_history,measure,Oil - Proved reserves history
+oil_production_barrels,measure,Oil Production - barrels
+oil_production_tonnes,measure,Oil Production - tonnes
+crude_cond_production_barrels,measure,Crude+cond production - barrels
+ngls_production_barrels,measure,NGLs production - barrels
+liquids_consumption_barrels,measure,Liquids Consumption - barrels
+oil_consumption_barrels,measure,Oil Consumption - barrels
+oil_consumption_tonnes,measure,Oil Consumption - Tonnes
+oil_consumption_exajoules,measure,Oil Consumption - exajoules
+oil_refinery_throughput,measure,Oil refinery - throughput
+oil_refinery_capacity,measure,Oil refinery - capacity
+gas_proved_reserves_history,measure,Gas - Proved reserves history 
+gas_production_bcm,measure,Gas Production - Bcm
+gas_production_bcf,measure,Gas Production - bcf
+gas_production_exajoules,measure,Gas Production - exajoules
+gas_consumption_bcm,measure,Gas Consumption - Bcm
+gas_consumption_bcf,measure,Gas Consumption - Bcf
+gas_consumption_exajoules,measure,Gas Consumption - exajoules
+gas_lng_imports_bcm,measure,Gas - LNG imports bcm
+coal_production_mt,measure,Coal Production - mt
+coal_production_exajoules,measure,Coal Production - exajoules
+coal_consumption_exajoules,measure,Coal Consumption - exajoules
+nuclear_generation_twh,measure,Nuclear Generation - TWh
+nuclear_consumption_exajoules,measure,Nuclear Consumption - exajoules
+hydro_generation_twh,measure,Hydro Generation - TWh
+hydro_consumption_exajoules,measure,Hydro Consumption - exajoules
+renewables_consumption_exajoules,measure,Renewables Consumption -exajoules
+renewable_power_inc_hydro_exajoules,measure,Renewable Power (inc hydro) -exajoules
+ren_power_excl_hydro_exajoules,measure,Ren power (excl hydro) - exajoules
+renewable_power_inc_hydro_twh,measure,Renewable Power (inc hydro)-TWh
+ren_power_excl_hydro_twh,measure,Ren power (excl hydro) - TWh
+solar_generation_twh,measure,Solar Generation - TWh
+solar_consumption_exajoules,measure,Solar Consumption - exajoules
+solar_installed_capacity,measure,Solar Installed Capacity
+wind_generation_twh,measure,Wind Generation - TWh
+wind_consumption_exajoules,measure,Wind Consumption - exajoules
+wind_installed_capacity,measure,Wind Installed Capacity
+geo_biomass_other_twh,measure,Geo Biomass Other - TWh
+geo_biomass_other_exajoules,measure,Geo Biomass Other - exajoules
+biofuels_production_kboed_biofuel,measure,Biofuels production - kboed biofuel
+biofuels_production_kboed_biogasoline,measure,Biofuels production - kboed biogasoline
+biofuels_production_kboed_biodiesel,measure,Biofuels production - kboed biodiesel
+biofuels_production_petajoules_biofuel,measure,Biofuels production - petajoules biofuel
+biofuels_production_petajoules_biogasoline,measure,Biofuels production - petajoules biogasoline
+biofuels_production_petajoules_biodiesel,measure,Biofuels production - petajoules biodiesel
+biofuels_consumption_kboed_biofuel,measure,Biofuels Consumption - kboed biofuel
+biofuels_consumption_kboed_biogasoline,measure,Biofuels Consumption - kboed biogasoline
+biofuels_consumption_kboed_biodiesel,measure,Biofuels Consumption - kboed biodiesel
+biofuels_consumption_petajoules_biofuel,measure,Biofuels consumption - petajoules biofuel
+biofuels_consumption_petajoules_biogasoline,measure,Biofuels consumption - petajoules biogasoline
+biofuels_consumption_petajoules_biodiesel,measure,Biofuels consumption - petajoules biodiesel
+electricity_generation_twh,measure,Electricity Generation - TWh
+oil_inputs_elec_generation,measure,Oil inputs - Elec generation 
+gas_inputs_elec_generation,measure,Gas inputs - Elec generation
+coal_inputs_elec_generation,measure,Coal inputs - Elec generation 
+other_inputs_elec_generation,measure,Other inputs - Elec generation
+grid_scale_bess_capacity,measure,Grid Scale BESS Capacity
+cobalt_production_and_reserves,measure,Cobalt Production and Reserves
+lithium_production_and_reserves,measure,Lithium Production and Reserves
+natural_graphite_production_and_reserves,measure,Natural Graphite Production and Reserves
+rare_earth_metals_production_and_reserves,measure,Rare Earth metals Production and Reserves
+copper_production_and_reserves,measure,Copper Production and Reserves
+manganese_production_and_reserves,measure,Manganese Production and Reserves
+nickel_production_and_reserves,measure,Nickel Production and Reserves
+zinc_production_and_reserves,measure,Zinc Production and Reserves
+platinum_group_metals_production_and_reserves,measure,Platinum Group Metals Production and Reserves
+bauxite_production_and_reserves,measure,Bauxite Production and Reserves
+aluminium_production_and_reserves,measure,Aluminium Production and Reserves
+tin_production_and_reserves,measure,Tin Production and Reserves
+vanadium_production_and_reserves,measure,Vanadium Production and Reserves
+primary_energy_cons_old_meth,measure,Primary Energy Cons (old meth)

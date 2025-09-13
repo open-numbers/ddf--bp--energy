@@ -27,19 +27,6 @@ sheets.remove("Definitions")
 sheets
 
 
-# # function to read the indicator name
-# def read_indicator_name(sheet_name):
-#     val = (
-#         reader.load_sheet_by_name(sheet_name, n_rows=1, header_row=None, use_columns="A")
-#         .to_polars()
-#         .item()
-#     )
-#     return val.replace("*", "")
-
-
-# read_indicator_name(sheets[1])
-
-
 # now create a configuration dictionary, key is sheet name and value is parameter dictionary.
 #
 # first assign some default values
@@ -48,7 +35,9 @@ config_dict: dict[str, dict] = dict(
         (
             x,
             {
-                "indicator_name": x,
+                "indicator_name": x.replace("EJ", "exajoules")
+                .replace("PJ", "petajoules")
+                .replace("P-R", "Production and Reserves"),
                 "read_options": {"header_row": 2},
                 "multiple_table": False,
                 "last_col": "2024",

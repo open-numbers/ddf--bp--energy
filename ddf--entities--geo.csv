@@ -1,149 +1,152 @@
 geo,name
-africa,Africa
-algeria,Algeria
-angola,Angola
-argentina,Argentina
-asia_pacific,Asia Pacific
-australia,Australia
-austria,Austria
-azerbaijan,Azerbaijan
-bahrain,Bahrain
-bangladesh,Bangladesh
-belarus,Belarus
-belgium,Belgium
-bolivia,Bolivia
-brazil,Brazil
-brunei,Brunei
-bulgaria,Bulgaria
-cis,CIS
 canada,Canada
-canada_mexico,Canada & Mexico
-central_america,Central America
-chad,Chad
+mexico,Mexico
+united_states,United States
+total_north_america,Total North America
+argentina,Argentina
+brazil,Brazil
 chile,Chile
-china,China
-china_hong_kong_sar,China Hong Kong SAR
 colombia,Colombia
-costa_rica,Costa Rica
+ecuador,Ecuador
+peru,Peru
+trinidad_tobago,Trinidad & Tobago
+venezuela,Venezuela
+central_america,Central America
+other_caribbean,Other Caribbean
+other_south_america,Other South America
+total_south_central_america,Total South & Central America
+austria,Austria
+belgium,Belgium
+bulgaria,Bulgaria
 croatia,Croatia
-cuba,Cuba
-curacao,Curacao
 cyprus,Cyprus
 czech_republic,Czech Republic
-dr_congo,DR Congo
 denmark,Denmark
-eastern_africa,Eastern Africa
-ecuador,Ecuador
-egypt,Egypt
-el_salvador,El Salvador
-equatorial_guinea,Equatorial Guinea
 estonia,Estonia
-ethiopia,Ethiopia
-europe,Europe
 finland,Finland
 france,France
-gabon,Gabon
 germany,Germany
 greece,Greece
-guatemala,Guatemala
-honduras,Honduras
 hungary,Hungary
 iceland,Iceland
-india,India
-indonesia,Indonesia
-iran,Iran
-iraq,Iraq
 ireland,Ireland
-israel,Israel
 italy,Italy
-japan,Japan
-jordan,Jordan
-kazakhstan,Kazakhstan
-kenya,Kenya
-kuwait,Kuwait
 latvia,Latvia
-libya,Libya
 lithuania,Lithuania
 luxembourg,Luxembourg
-madagascar,Madagascar
-malaysia,Malaysia
-mexico,Mexico
-middle_africa,Middle Africa
-middle_east,Middle East
-mongolia,Mongolia
-morocco,Morocco
-mozambique,Mozambique
-myanmar,Myanmar
 netherlands,Netherlands
-netherlands_antilles,Netherlands Antilles
-new_caledonia,New Caledonia
-new_zealand,New Zealand
-nicaragua,Nicaragua
-nigeria,Nigeria
 north_macedonia,North Macedonia
 norway,Norway
-oman,Oman
-other_africa,Other Africa
-other_asia_pacific,Other Asia Pacific
-other_cis,Other CIS
-other_caribbean,Other Caribbean
-other_europe,Other Europe
-other_middle_east,Other Middle East
-other_north_africa,Other North Africa
-other_northern_africa,Other Northern Africa
-other_s_cent_america,Other S. & Cent. America
-other_s_and_cent_america,Other S. and Cent. America
-other_south_america,Other South America
-other_southern_africa,Other Southern Africa
-pakistan,Pakistan
-papua_new_guinea,Papua New Guinea
-peru,Peru
-philippines,Philippines
 poland,Poland
 portugal,Portugal
-qatar,Qatar
-republic_of_congo,Republic of Congo
-rest_of_world,Rest of World
 romania,Romania
-russian_federation,Russian Federation
-saudi_arabia,Saudi Arabia
-serbia,Serbia
-singapore,Singapore
 slovakia,Slovakia
 slovenia,Slovenia
-south_africa,South Africa
-south_korea,South Korea
-south_sudan,South Sudan
 spain,Spain
-sri_lanka,Sri Lanka
-sudan,Sudan
 sweden,Sweden
 switzerland,Switzerland
-syria,Syria
+turkey,Turkey
+ukraine,Ukraine
+united_kingdom,United Kingdom
+other_europe,Other Europe
+total_europe,Total Europe
+azerbaijan,Azerbaijan
+belarus,Belarus
+kazakhstan,Kazakhstan
+russian_federation,Russian Federation
+turkmenistan,Turkmenistan
+russia,Russia
+uzbekistan,Uzbekistan
+other_cis,Other CIS
+total_cis,Total CIS
+iran,Iran
+iraq,Iraq
+israel,Israel
+kuwait,Kuwait
+oman,Oman
+qatar,Qatar
+saudi_arabia,Saudi Arabia
+united_arab_emirates,United Arab Emirates
+other_middle_east,Other Middle East
+total_middle_east,Total Middle East
+algeria,Algeria
+egypt,Egypt
+morocco,Morocco
+south_africa,South Africa
+eastern_africa,Eastern Africa
+middle_africa,Middle Africa
+western_africa,Western Africa
+other_northern_africa,Other Northern Africa
+other_southern_africa,Other Southern Africa
+total_africa,Total Africa
+australia,Australia
+bangladesh,Bangladesh
+china,China
+china_hong_kong_sar,China Hong Kong SAR
+india,India
+indonesia,Indonesia
+japan,Japan
+malaysia,Malaysia
+new_zealand,New Zealand
+pakistan,Pakistan
+philippines,Philippines
+singapore,Singapore
+south_korea,South Korea
+sri_lanka,Sri Lanka
 taiwan,Taiwan
 thailand,Thailand
-total_africa,Total Africa
-total_asia_pacific,Total Asia Pacific
-total_cis,Total CIS
-total_europe,Total Europe
-total_middle_east,Total Middle East
-total_north_america,Total North America
-total_s_cent_america,Total S. & Cent. America
-total_world,Total World
-trinidad_tobago,Trinidad & Tobago
-tunisia,Tunisia
-turkey,Turkey
-turkmenistan,Turkmenistan
-us,US
-ussr,USSR
-ukraine,Ukraine
-united_arab_emirates,United Arab Emirates
-united_kingdom,United Kingdom
-uruguay,Uruguay
-uzbekistan,Uzbekistan
-venezuela,Venezuela
 vietnam,Vietnam
-western_africa,Western Africa
+other_asia_pacific,Other Asia Pacific
+total_asia_pacific,Total Asia Pacific
+total_world,Total World
+bolivia,Bolivia
+other_south_central_america,Other South & Central America
+bahrain,Bahrain
+syria,Syria
 yemen,Yemen
-zambia,Zambia
+libya,Libya
+nigeria,Nigeria
+other_africa,Other Africa
+brunei,Brunei
+myanmar,Myanmar
+angola,Angola
+chad,Chad
+republic_of_congo,Republic of Congo
+equatorial_guinea,Equatorial Guinea
+gabon,Gabon
+south_sudan,South Sudan
+sudan,Sudan
+tunisia,Tunisia
+guyana,Guyana
+curacao,Curacao
+netherlands_antilles,Netherlands Antilles
+papua_new_guinea,Papua New Guinea
+other_eu,Other EU
+rest_of_europe,Rest of Europe
+other_middle_east_africa,Other Middle East & Africa
+total_middle_east_africa,Total Middle East & Africa
+serbia,Serbia
 zimbabwe,Zimbabwe
+mongolia,Mongolia
+honduras,Honduras
+the_dominican_republic,The Dominican Republic
+jordan,Jordan
+costa_rica,Costa Rica
+uruguay,Uruguay
+other_north_africa,Other North Africa
+canada_mexico,Canada & Mexico
+europe,Europe
+cis,CIS
+middle_east,Middle East
+africa,Africa
+asia_pacific,Asia Pacific
+democratic_republic_of_congo,Democratic Republic of Congo
+cuba,Cuba
+madagascar,Madagascar
+new_caledonia,New Caledonia
+zambia,Zambia
+rest_of_world,Rest of World 
+mozambique,Mozambique
+ghana,Ghana
+guinea,Guinea
+burma,Burma
