@@ -1,11 +1,21 @@
 # ddf--bp--energy
-Date: 2020-11-13
 
-source: https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy.html
+source: https://www.energyinst.org/statistical-review
 
 for now, only part of data(Production, Consumption) were imported. Other data (Prices, Trade) were not imported
 
 ### Changelog
+
+#### 2025-09-13
+
+- updated with 2025 statistical review of world energy data
+- production_reverse were split into multiple datapoints, removed material domain
+- removed some obsolete entity domain files
+- new indicators for co2 emissions:
+  - removed carbon_dioxide_emissions
+  - added co2_from_energy, co2_from_flaring, co2_process_emissions_methane, co2e_emissions
+
+#### 2020-11-13
 
 * All Indicators are updated to 2019
 * Energy units have been changed from million tonnes of oil equivalent (mtoe)  to exajoules
