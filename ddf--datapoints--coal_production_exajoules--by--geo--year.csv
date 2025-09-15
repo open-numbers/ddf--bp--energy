@@ -23,7 +23,6 @@ united_kingdom,1981,3.26604
 other_europe,1981,1.43335
 total_europe,1981,18.85812
 kazakhstan,1981,0
-russian_federation,1981,0
 russia,1981,14.50024
 uzbekistan,1981,0
 other_cis,1981,0
@@ -71,7 +70,6 @@ united_kingdom,1982,3.18486
 other_europe,1982,1.51122
 total_europe,1982,19.72003
 kazakhstan,1982,0
-russian_federation,1982,0
 russia,1982,14.62162
 uzbekistan,1982,0
 other_cis,1982,0
@@ -119,7 +117,6 @@ united_kingdom,1983,3.04364
 other_europe,1983,1.52844
 total_europe,1983,19.46528
 kazakhstan,1983,0
-russian_federation,1983,0
 russia,1983,14.60803
 uzbekistan,1983,0
 other_cis,1983,0
@@ -167,7 +164,6 @@ united_kingdom,1984,1.28614
 other_europe,1984,1.56282
 total_europe,1984,17.88514
 kazakhstan,1984,0
-russian_federation,1984,0
 russia,1984,14.44949
 uzbekistan,1984,0
 other_cis,1984,0
@@ -216,7 +212,6 @@ other_europe,1985,1.84592
 total_europe,1985,23.49305
 kazakhstan,1985,2.39781
 russian_federation,1985,7.77931
-russia,1985,0
 uzbekistan,1985,0.0623
 other_cis,1985,0.11741
 total_cis,1985,10.35683
@@ -264,7 +259,6 @@ other_europe,1986,1.87025
 total_europe,1986,23.94384
 kazakhstan,1986,2.51882
 russian_federation,1986,8.04592
-russia,1986,0
 uzbekistan,1986,0.07053
 other_cis,1986,0.12409
 total_cis,1986,10.75935
@@ -312,7 +306,6 @@ other_europe,1987,1.74354
 total_europe,1987,23.57507
 kazakhstan,1987,2.60193
 russian_federation,1987,8.11113
-russia,1987,0
 uzbekistan,1987,0.05877
 other_cis,1987,0.11429
 total_cis,1987,10.88613
@@ -360,7 +353,6 @@ other_europe,1988,1.5892
 total_europe,1988,23.26962
 kazakhstan,1988,2.61006
 russian_federation,1988,8.37178
-russia,1988,0
 uzbekistan,1988,0.06465
 other_cis,1988,0.12268
 total_cis,1988,11.16917
@@ -408,7 +400,6 @@ other_europe,1989,1.62785
 total_europe,1989,22.35559
 kazakhstan,1989,2.51872
 russian_federation,1989,8.05313
-russia,1989,0
 uzbekistan,1989,0.07288
 other_cis,1989,0.11824
 total_cis,1989,10.76296
@@ -456,7 +447,6 @@ other_europe,1990,1.6255
 total_europe,1990,20.59272
 kazakhstan,1990,2.38953
 russian_federation,1990,7.76907
-russia,1990,0
 uzbekistan,1990,0.0764
 other_cis,1990,0.10329
 total_cis,1990,10.33829
@@ -504,7 +494,6 @@ other_europe,1991,1.44205
 total_europe,1991,18.69011
 kazakhstan,1991,2.36702
 russian_federation,1991,7.1445
-russia,1991,0
 uzbekistan,1991,0.06992
 other_cis,1991,0.10206
 total_cis,1991,9.6835
@@ -552,7 +541,6 @@ other_europe,1992,1.34537
 total_europe,1992,17.69786
 kazakhstan,1992,2.29497
 russian_federation,1992,6.85104
-russia,1992,0
 uzbekistan,1992,0.05501
 other_cis,1992,0.08248
 total_cis,1992,9.2835
@@ -600,7 +588,6 @@ other_europe,1993,1.18906
 total_europe,1993,16.08169
 kazakhstan,1993,2.02278
 russian_federation,1993,6.17874
-russia,1993,0
 uzbekistan,1993,0.04475
 other_cis,1993,0.06075
 total_cis,1993,8.30702
@@ -648,7 +635,6 @@ other_europe,1994,1.08002
 total_europe,1994,14.62983
 kazakhstan,1994,1.88875
 russian_federation,1994,5.49893
-russia,1994,0
 uzbekistan,1994,0.0452
 other_cis,1994,0.05036
 total_cis,1994,7.48324
@@ -696,7 +682,6 @@ other_europe,1995,1.08689
 total_europe,1995,14.4897
 kazakhstan,1995,1.50384
 russian_federation,1995,5.22151
-russia,1995,0
 uzbekistan,1995,0.0359
 other_cis,1995,0.04007
 total_cis,1995,6.80132
@@ -744,7 +729,6 @@ other_europe,1996,1.06722
 total_europe,1996,13.74719
 kazakhstan,1996,1.38664
 russian_federation,1996,5.05849
-russia,1996,0
 uzbekistan,1996,0.03335
 other_cis,1996,0.03583
 total_cis,1996,6.51431
@@ -792,7 +776,6 @@ other_europe,1997,1.12673
 total_europe,1997,13.76313
 kazakhstan,1997,1.31702
 russian_federation,1997,4.85627
-russia,1997,0
 uzbekistan,1997,0.03463
 other_cis,1997,0.03664
 total_cis,1997,6.24456
@@ -840,7 +823,6 @@ other_europe,1998,1.01935
 total_europe,1998,12.60786
 kazakhstan,1998,1.26914
 russian_federation,1998,4.55733
-russia,1998,0
 uzbekistan,1998,0.0347
 other_cis,1998,0.0275
 total_cis,1998,5.88867
@@ -888,7 +870,6 @@ other_europe,1999,0.96299
 total_europe,1999,12.09503
 kazakhstan,1999,1.05979
 russian_federation,1999,4.93247
-russia,1999,0
 uzbekistan,1999,0.03475
 other_cis,1999,0.03798
 total_cis,1999,6.06499
@@ -936,7 +917,6 @@ other_europe,2000,0.95647
 total_europe,2000,11.66704
 kazakhstan,2000,1.35803
 russian_federation,2000,5.0878
-russia,2000,0
 uzbekistan,2000,0.0294
 other_cis,2000,0.02712
 total_cis,2000,6.50235
@@ -984,7 +964,6 @@ other_europe,2001,0.96808
 total_europe,2001,11.57982
 kazakhstan,2001,1.43366
 russian_federation,2001,5.37794
-russia,2001,0
 uzbekistan,2001,0.03187
 other_cis,2001,0.02779
 total_cis,2001,6.87127
@@ -1032,7 +1011,6 @@ other_europe,2002,1.00005
 total_europe,2002,11.4792
 kazakhstan,2002,1.33356
 russian_federation,2002,5.13176
-russia,2002,0
 uzbekistan,2002,0.03217
 other_cis,2002,0.02957
 total_cis,2002,6.52705
@@ -1080,7 +1058,6 @@ other_europe,2003,1.07151
 total_europe,2003,11.38956
 kazakhstan,2003,1.53023
 russian_federation,2003,5.54793
-russia,2003,0
 uzbekistan,2003,0.02249
 other_cis,2003,0.02516
 total_cis,2003,7.1258
@@ -1128,7 +1105,6 @@ other_europe,2004,0.97555
 total_europe,2004,11.01361
 kazakhstan,2004,1.56864
 russian_federation,2004,5.74136
-russia,2004,0
 uzbekistan,2004,0.03173
 other_cis,2004,0.02874
 total_cis,2004,7.37047
@@ -1176,7 +1152,6 @@ other_europe,2005,0.96512
 total_europe,2005,10.77755
 kazakhstan,2005,1.55981
 russian_federation,2005,5.67688
-russia,2005,0
 uzbekistan,2005,0.03529
 other_cis,2005,0.03101
 total_cis,2005,7.303
@@ -1224,7 +1199,6 @@ other_europe,2006,1.05568
 total_europe,2006,10.74907
 kazakhstan,2006,1.73445
 russian_federation,2006,5.90255
-russia,2006,0
 uzbekistan,2006,0.0367
 other_cis,2006,0.02907
 total_cis,2006,7.70277
@@ -1272,7 +1246,6 @@ other_europe,2007,0.69293
 total_europe,2007,10.54807
 kazakhstan,2007,1.7669
 russian_federation,2007,6.00806
-russia,2007,0
 uzbekistan,2007,0.03848
 other_cis,2007,0.03577
 total_cis,2007,7.8492
@@ -1320,7 +1293,6 @@ other_europe,2008,0.69134
 total_europe,2008,10.29852
 kazakhstan,2008,2.00727
 russian_federation,2008,6.23666
-russia,2008,0
 uzbekistan,2008,0.04234
 other_cis,2008,0.03615
 total_cis,2008,8.32241
@@ -1368,7 +1340,6 @@ other_europe,2009,0.68569
 total_europe,2009,9.7277
 kazakhstan,2009,1.81784
 russian_federation,2009,5.93479
-russia,2009,0
 uzbekistan,2009,0.04295
 other_cis,2009,0.03627
 total_cis,2009,7.83185
@@ -1416,7 +1387,6 @@ other_europe,2010,0.73435
 total_europe,2010,9.65014
 kazakhstan,2010,1.98864
 russian_federation,2010,6.31901
-russia,2010,0
 uzbekistan,2010,0.04266
 other_cis,2010,0.03737
 total_cis,2010,8.38769
@@ -1464,7 +1434,6 @@ other_europe,2011,0.73249
 total_europe,2011,9.98937
 kazakhstan,2011,2.08298
 russian_federation,2011,6.59714
-russia,2011,0
 uzbekistan,2011,0.04519
 other_cis,2011,0.04598
 total_cis,2011,8.7713
@@ -1512,7 +1481,6 @@ other_europe,2012,0.65445
 total_europe,2012,10.00905
 kazakhstan,2012,2.16176
 russian_federation,2012,7.04555
-russia,2012,0
 uzbekistan,2012,0.04411
 other_cis,2012,0.05483
 total_cis,2012,9.30625
@@ -1560,7 +1528,6 @@ other_europe,2013,0.71584
 total_europe,2013,9.44836
 kazakhstan,2013,2.15102
 russian_federation,2013,7.24777
-russia,2013,0
 uzbekistan,2013,0.04808
 other_cis,2013,0.05815
 total_cis,2013,9.50502
@@ -1608,7 +1575,6 @@ other_europe,2014,0.64029
 total_europe,2014,8.57056
 kazakhstan,2014,2.09088
 russian_federation,2014,7.39431
-russia,2014,0
 uzbekistan,2014,0.05168
 other_cis,2014,0.06338
 total_cis,2014,9.60025
@@ -1656,7 +1622,6 @@ other_europe,2015,0.59159
 total_europe,2015,7.87734
 kazakhstan,2015,1.65709
 russian_federation,2015,7.80168
-russia,2015,0
 uzbekistan,2015,0.041
 other_cis,2015,0.06552
 total_cis,2015,9.5653
@@ -1704,7 +1669,6 @@ other_europe,2016,0.59317
 total_europe,2016,7.58322
 kazakhstan,2016,1.75396
 russian_federation,2016,8.12114
-russia,2016,0
 uzbekistan,2016,0.04546
 other_cis,2016,0.07487
 total_cis,2016,9.99542
@@ -1752,7 +1716,6 @@ other_europe,2017,0.59792
 total_europe,2017,7.27658
 kazakhstan,2017,1.9231
 russian_federation,2017,8.61643
-russia,2017,0
 uzbekistan,2017,0.04747
 other_cis,2017,0.09063
 total_cis,2017,10.67763
@@ -1800,7 +1763,6 @@ other_europe,2018,0.60202
 total_europe,2018,7.07529
 kazakhstan,2018,1.97656
 russian_federation,2018,9.22603
-russia,2018,0
 uzbekistan,2018,0.04907
 other_cis,2018,0.11582
 total_cis,2018,11.36748
@@ -1848,7 +1810,6 @@ other_europe,2019,0.52028
 total_europe,2019,6.35848
 kazakhstan,2019,1.88059
 russian_federation,2019,9.22896
-russia,2019,0
 uzbekistan,2019,0.04833
 other_cis,2019,0.12085
 total_cis,2019,11.27874
@@ -1896,7 +1857,6 @@ other_europe,2020,0.45976
 total_europe,2020,5.46606
 kazakhstan,2020,1.85536
 russian_federation,2020,8.41128
-russia,2020,0
 uzbekistan,2020,0.04954
 other_cis,2020,0.10693
 total_cis,2020,10.42311
@@ -1944,7 +1904,6 @@ other_europe,2021,0.43558
 total_europe,2021,5.77008
 kazakhstan,2021,1.92002
 russian_federation,2021,9.23189
-russia,2021,0
 uzbekistan,2021,0.06007
 other_cis,2021,0.11322
 total_cis,2021,11.3252
@@ -1992,7 +1951,6 @@ other_europe,2022,0.45902
 total_europe,2022,5.84459
 kazakhstan,2022,1.94754
 russian_federation,2022,9.33485
-russia,2022,0
 uzbekistan,2022,0.06353
 other_cis,2022,0.1394
 total_cis,2022,11.48532
@@ -2040,7 +1998,6 @@ other_europe,2023,0.41655
 total_europe,2023,4.8726
 kazakhstan,2023,2.01037
 russian_federation,2023,9.19539
-russia,2023,0
 uzbekistan,2023,0.07786
 other_cis,2023,0.1384
 total_cis,2023,11.42202
@@ -2088,7 +2045,6 @@ other_europe,2024,0.37235
 total_europe,2024,4.53253
 kazakhstan,2024,1.94406
 russian_federation,2024,9.1194
-russia,2024,0
 uzbekistan,2024,0.08939
 other_cis,2024,0.15185
 total_cis,2024,11.3047

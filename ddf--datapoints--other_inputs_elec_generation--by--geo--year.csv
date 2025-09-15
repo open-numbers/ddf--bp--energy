@@ -19,7 +19,6 @@ united_kingdom,1985,4.67279
 other_europe,1985,6.11913
 total_europe,1985,40.4635
 kazakhstan,1985,0
-russian_federation,1985,0
 other_cis,1985,0.0021
 total_cis,1985,0.0021
 iran,1985,0
@@ -64,7 +63,6 @@ united_kingdom,1986,2.88369
 other_europe,1986,7.01579
 total_europe,1986,39.03227
 kazakhstan,1986,0
-russian_federation,1986,0
 other_cis,1986,0.0021
 total_cis,1986,0.0021
 iran,1986,0
@@ -109,7 +107,6 @@ united_kingdom,1987,1.9632
 other_europe,1987,6.51008
 total_europe,1987,36.51852
 kazakhstan,1987,0
-russian_federation,1987,0
 other_cis,1987,0.0021
 total_cis,1987,0.0021
 iran,1987,0
@@ -154,7 +151,6 @@ united_kingdom,1988,3.93839
 other_europe,1988,7.19011
 total_europe,1988,41.62868
 kazakhstan,1988,0
-russian_federation,1988,0
 other_cis,1988,0.0021
 total_cis,1988,0.0021
 iran,1988,0
@@ -199,7 +195,6 @@ united_kingdom,1989,3.7447
 other_europe,1989,5.38155
 total_europe,1989,40.63275
 kazakhstan,1989,0
-russian_federation,1989,0
 other_cis,1989,0.0021
 total_cis,1989,0.0021
 iran,1989,0
@@ -244,7 +239,6 @@ united_kingdom,1990,2.156
 other_europe,1990,6.22864
 total_europe,1990,40.31245
 kazakhstan,1990,0
-russian_federation,1990,0
 other_cis,1990,-0.97863
 total_cis,1990,-0.97863
 iran,1990,0
@@ -289,7 +283,6 @@ united_kingdom,1991,1.7014
 other_europe,1991,7.2445
 total_europe,1991,37.53153
 kazakhstan,1991,-0.0008
-russian_federation,1991,0
 other_cis,1991,0.00134
 total_cis,1991,0.00055
 iran,1991,0

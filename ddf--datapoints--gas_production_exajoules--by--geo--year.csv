@@ -25,7 +25,6 @@ other_europe,1970,0.52588
 total_europe,1970,3.77751
 azerbaijan,1970,0
 kazakhstan,1970,0
-russian_federation,1970,0
 turkmenistan,1970,0
 russia,1970,6.75005
 uzbekistan,1970,0
@@ -89,7 +88,6 @@ other_europe,1971,0.54967
 total_europe,1971,4.6146
 azerbaijan,1971,0
 kazakhstan,1971,0
-russian_federation,1971,0
 turkmenistan,1971,0
 russia,1971,7.24297
 uzbekistan,1971,0
@@ -153,7 +151,6 @@ other_europe,1972,0.57685
 total_europe,1972,5.55778
 azerbaijan,1972,0
 kazakhstan,1972,0
-russian_federation,1972,0
 turkmenistan,1972,0
 russia,1972,7.54988
 uzbekistan,1972,0
@@ -217,7 +214,6 @@ other_europe,1973,0.62202
 total_europe,1973,6.25257
 azerbaijan,1973,0
 kazakhstan,1973,0
-russian_federation,1973,0
 turkmenistan,1973,0
 russia,1973,8.05798
 uzbekistan,1973,0
@@ -281,7 +277,6 @@ other_europe,1974,0.63576
 total_europe,1974,6.94493
 azerbaijan,1974,0
 kazakhstan,1974,0
-russian_federation,1974,0
 turkmenistan,1974,0
 russia,1974,8.88663
 uzbekistan,1974,0
@@ -345,7 +340,6 @@ other_europe,1975,0.632
 total_europe,1975,7.22277
 azerbaijan,1975,0
 kazakhstan,1975,0
-russian_federation,1975,0
 turkmenistan,1975,0
 russia,1975,9.86422
 uzbekistan,1975,0
@@ -409,7 +403,6 @@ other_europe,1976,0.65045
 total_europe,1976,7.68436
 azerbaijan,1976,0
 kazakhstan,1976,0
-russian_federation,1976,0
 turkmenistan,1976,0
 russia,1976,10.9447
 uzbekistan,1976,0
@@ -473,7 +466,6 @@ other_europe,1977,0.70196
 total_europe,1977,7.90854
 azerbaijan,1977,0
 kazakhstan,1977,0
-russian_federation,1977,0
 turkmenistan,1977,0
 russia,1977,11.79892
 uzbekistan,1977,0
@@ -537,7 +529,6 @@ other_europe,1978,0.74425
 total_europe,1978,8.0891
 azerbaijan,1978,0
 kazakhstan,1978,0
-russian_federation,1978,0
 turkmenistan,1978,0
 russia,1978,12.69205
 uzbekistan,1978,0
@@ -601,7 +592,6 @@ other_europe,1979,0.71995
 total_europe,1979,8.35863
 azerbaijan,1979,0
 kazakhstan,1979,0
-russian_federation,1979,0
 turkmenistan,1979,0
 russia,1979,13.86522
 uzbekistan,1979,0
@@ -665,7 +655,6 @@ other_europe,1980,0.69196
 total_europe,1980,8.22796
 azerbaijan,1980,0
 kazakhstan,1980,0
-russian_federation,1980,0
 turkmenistan,1980,0
 russia,1980,14.8406
 uzbekistan,1980,0
@@ -729,7 +718,6 @@ other_europe,1981,0.66161
 total_europe,1981,8.09196
 azerbaijan,1981,0
 kazakhstan,1981,0
-russian_federation,1981,0
 turkmenistan,1981,0
 russia,1981,15.86702
 uzbekistan,1981,0
@@ -793,7 +781,6 @@ other_europe,1982,0.68122
 total_europe,1982,7.64059
 azerbaijan,1982,0
 kazakhstan,1982,0
-russian_federation,1982,0
 turkmenistan,1982,0
 russia,1982,17.07419
 uzbekistan,1982,0
@@ -857,7 +844,6 @@ other_europe,1983,0.67271
 total_europe,1983,7.808
 azerbaijan,1983,0
 kazakhstan,1983,0
-russian_federation,1983,0
 turkmenistan,1983,0
 russia,1983,18.26771
 uzbekistan,1983,0
@@ -921,7 +907,6 @@ other_europe,1984,0.67785
 total_europe,1984,7.92569
 azerbaijan,1984,0
 kazakhstan,1984,0
-russian_federation,1984,0
 turkmenistan,1984,0
 russia,1984,20.03071
 uzbekistan,1984,0
@@ -987,7 +972,6 @@ azerbaijan,1985,0.49462
 kazakhstan,1985,0.13924
 russian_federation,1985,15.29572
 turkmenistan,1985,2.83435
-russia,1985,0
 uzbekistan,1985,1.17851
 other_cis,1985,0.02591
 total_cis,1985,19.96835
@@ -1051,7 +1035,6 @@ azerbaijan,1986,0.47809
 kazakhstan,1986,0.14864
 russian_federation,1986,16.65242
 turkmenistan,1986,2.8858
-russia,1986,0
 uzbekistan,1986,1.31513
 other_cis,1986,0.02881
 total_cis,1986,21.50888
@@ -1115,7 +1098,6 @@ azerbaijan,1987,0.43942
 kazakhstan,1987,0.16106
 russian_federation,1987,18.0197
 turkmenistan,1987,3.00164
-russia,1987,0
 uzbekistan,1987,1.35602
 other_cis,1987,0.02881
 total_cis,1987,23.00665
@@ -1179,7 +1161,6 @@ azerbaijan,1988,0.41833
 kazakhstan,1988,0.18207
 russian_federation,1988,19.52603
 turkmenistan,1988,3.00845
-russia,1988,0
 uzbekistan,1988,1.35942
 other_cis,1988,0.0254
 total_cis,1988,24.51971
@@ -1243,7 +1224,6 @@ azerbaijan,1989,0.39021
 kazakhstan,1989,0.17125
 russian_federation,1989,20.3868
 turkmenistan,1989,3.06296
-russia,1989,0
 uzbekistan,1989,1.40031
 other_cis,1989,0.0254
 total_cis,1989,25.43692
@@ -1307,7 +1287,6 @@ azerbaijan,1990,0.34802
 kazakhstan,1990,0.18154
 russian_federation,1990,21.58524
 turkmenistan,1990,2.85273
-russia,1990,0
 uzbekistan,1990,1.32502
 other_cis,1990,0.0217
 total_cis,1990,26.31426
@@ -1371,7 +1350,6 @@ azerbaijan,1991,0.30232
 kazakhstan,1991,0.20124
 russian_federation,1991,21.28728
 turkmenistan,1991,2.74116
-russia,1991,0
 uzbekistan,1991,1.3614
 other_cis,1991,0.02045
 total_cis,1991,25.91385
@@ -1435,7 +1413,6 @@ azerbaijan,1992,0.27772
 kazakhstan,1992,0.20704
 russian_federation,1992,21.32039
 turkmenistan,1992,1.81081
-russia,1992,0
 uzbekistan,1992,1.38461
 other_cis,1992,0.01986
 total_cis,1992,25.02043
@@ -1499,7 +1476,6 @@ azerbaijan,1993,0.23905
 kazakhstan,1993,0.17062
 russian_federation,1993,20.46956
 turkmenistan,1993,2.11989
-russia,1993,0
 uzbekistan,1993,1.46292
 other_cis,1993,0.01699
 total_cis,1993,24.47903
@@ -1563,7 +1539,6 @@ azerbaijan,1994,0.22499
 kazakhstan,1994,0.11454
 russian_federation,1994,20.10539
 turkmenistan,1994,1.16389
-russia,1994,0
 uzbekistan,1994,1.5343
 other_cis,1994,0.01663
 total_cis,1994,23.15974
@@ -1627,7 +1602,6 @@ azerbaijan,1995,0.23202
 kazakhstan,1995,0.15098
 russian_federation,1995,19.483
 turkmenistan,1995,1.0499
-russia,1995,0
 uzbekistan,1995,1.56029
 other_cis,1995,0.01534
 total_cis,1995,22.49152
@@ -1691,7 +1665,6 @@ azerbaijan,1996,0.2066
 kazakhstan,1996,0.1665
 russian_federation,1996,19.88358
 turkmenistan,1996,1.14345
-russia,1996,0
 uzbekistan,1996,1.59251
 other_cis,1996,0.01452
 total_cis,1996,23.00717
@@ -1755,7 +1728,6 @@ azerbaijan,1997,0.19676
 kazakhstan,1997,0.20708
 russian_federation,1997,18.84736
 turkmenistan,1997,0.56237
-russia,1997,0
 uzbekistan,1997,1.63305
 other_cis,1997,0.01399
 total_cis,1997,21.46061
@@ -1819,7 +1791,6 @@ azerbaijan,1998,0.18361
 kazakhstan,1998,0.20284
 russian_federation,1998,19.48631
 turkmenistan,1998,0.43243
-russia,1998,0
 uzbekistan,1998,1.78101
 other_cis,1998,0.01381
 total_cis,1998,22.10001
@@ -1883,7 +1854,6 @@ azerbaijan,1999,0.19676
 kazakhstan,1999,0.25383
 russian_federation,1999,19.59887
 turkmenistan,1999,0.74116
-russia,1999,0
 uzbekistan,1999,1.80665
 other_cis,1999,0.0144
 total_cis,1999,22.61167
@@ -1947,7 +1917,6 @@ azerbaijan,2000,0.18551
 kazakhstan,2000,0.29456
 russian_federation,2000,19.33402
 turkmenistan,2000,1.52772
-russia,2000,0
 uzbekistan,2000,1.83333
 other_cis,2000,0.01485
 total_cis,2000,23.18999
@@ -2011,7 +1980,6 @@ azerbaijan,2001,0.18185
 kazakhstan,2001,0.2963
 russian_federation,2001,19.25125
 turkmenistan,2001,1.6677
-russia,2001,0
 uzbekistan,2001,1.85274
 other_cis,2001,0.01519
 total_cis,2001,23.26503
@@ -2075,7 +2043,6 @@ azerbaijan,2002,0.16867
 kazakhstan,2002,0.36008
 russian_federation,2002,19.71143
 turkmenistan,2002,1.73908
-russia,2002,0
 uzbekistan,2002,1.89847
 other_cis,2002,0.01399
 total_cis,2002,23.89172
@@ -2139,7 +2106,6 @@ azerbaijan,2003,0.16814
 kazakhstan,2003,0.42357
 russian_federation,2003,20.54239
 turkmenistan,2003,1.92307
-russia,2003,0
 uzbekistan,2003,1.91129
 other_cis,2003,0.01429
 total_cis,2003,24.98277
@@ -2203,7 +2169,6 @@ azerbaijan,2004,0.16382
 kazakhstan,2004,0.59047
 russian_federation,2004,20.97277
 turkmenistan,2004,1.89535
-russia,2004,0
 uzbekistan,2004,1.93693
 other_cis,2004,0.01405
 total_cis,2004,25.57341
@@ -2267,7 +2232,6 @@ azerbaijan,2005,0.20151
 kazakhstan,2005,0.6834
 russian_federation,2005,21.22107
 turkmenistan,2005,2.04782
-russia,2005,0
 uzbekistan,2005,1.96639
 other_cis,2005,0.01287
 total_cis,2005,26.13305
@@ -2331,7 +2295,6 @@ azerbaijan,2006,0.23776
 kazakhstan,2006,0.71465
 russian_federation,2006,21.77212
 turkmenistan,2006,2.03742
-russia,2006,0
 uzbekistan,2006,2.03742
 other_cis,2006,0.01192
 total_cis,2006,26.8113
@@ -2395,7 +2358,6 @@ azerbaijan,2007,0.38079
 kazakhstan,2007,0.81035
 russian_federation,2007,21.65807
 turkmenistan,2007,2.2176
-russia,2007,0
 uzbekistan,2007,2.12058
 other_cis,2007,0.01082
 total_cis,2007,27.19821
@@ -2459,7 +2421,6 @@ azerbaijan,2008,0.57429
 kazakhstan,2008,0.90429
 russian_federation,2008,22.01231
 turkmenistan,2008,2.2176
-russia,2008,0
 uzbekistan,2008,2.19681
 other_cis,2008,0.01095
 total_cis,2008,27.91625
@@ -2523,7 +2484,6 @@ azerbaijan,2009,0.57381
 kazakhstan,2009,0.93649
 russian_federation,2009,19.30283
 turkmenistan,2009,1.19958
-russia,2009,0
 uzbekistan,2009,2.10326
 other_cis,2009,0.01108
 total_cis,2009,24.12706
@@ -2587,7 +2547,6 @@ azerbaijan,2010,0.58611
 kazakhstan,2010,0.98089
 russian_federation,2010,21.54192
 turkmenistan,2010,1.4446
-russia,2010,0
 uzbekistan,2010,2.05717
 other_cis,2010,0.01185
 total_cis,2010,26.62255
@@ -2651,7 +2610,6 @@ azerbaijan,2011,0.57517
 kazakhstan,2011,1.03226
 russian_federation,2011,22.2058
 turkmenistan,2011,2.02721
-russia,2011,0
 uzbekistan,2011,2.03915
 other_cis,2011,0.01228
 total_cis,2011,27.89187
@@ -2715,7 +2673,6 @@ azerbaijan,2012,0.60613
 kazakhstan,2012,1.0447
 russian_federation,2012,21.66678
 turkmenistan,2012,2.12261
-russia,2012,0
 uzbekistan,2012,2.03499
 other_cis,2012,0.01189
 total_cis,2012,27.4871
@@ -2779,7 +2736,6 @@ azerbaijan,2013,0.62908
 kazakhstan,2013,1.09604
 russian_federation,2013,22.12186
 turkmenistan,2013,2.12261
-russia,2013,0
 uzbekistan,2013,2.01247
 other_cis,2013,0.01223
 total_cis,2013,27.9943
@@ -2843,7 +2799,6 @@ azerbaijan,2014,0.66183
 kazakhstan,2014,1.17985
 russian_federation,2014,21.28159
 turkmenistan,2014,2.28615
-russia,2014,0
 uzbekistan,2014,2.02668
 other_cis,2014,0.01193
 total_cis,2014,27.44802
@@ -2907,7 +2862,6 @@ azerbaijan,2015,0.67623
 kazakhstan,2015,0.97716
 russian_federation,2015,21.03982
 turkmenistan,2015,2.37133
-russia,2015,0
 uzbekistan,2015,1.93
 other_cis,2015,0.01208
 total_cis,2015,27.00662
@@ -2971,7 +2925,6 @@ azerbaijan,2016,0.65799
 kazakhstan,2016,1.11345
 russian_federation,2016,21.21391
 turkmenistan,2016,2.27593
-russia,2016,0
 uzbekistan,2016,1.91246
 other_cis,2016,0.0115
 total_cis,2016,27.18525
@@ -3035,7 +2988,6 @@ azerbaijan,2017,0.63931
 kazakhstan,2017,1.30961
 russian_federation,2017,22.88019
 turkmenistan,2017,2.11239
-russia,2017,0
 uzbekistan,2017,1.92984
 other_cis,2017,0.01081
 total_cis,2017,28.88216
@@ -3099,7 +3051,6 @@ azerbaijan,2018,0.6753
 kazakhstan,2018,1.41042
 russian_federation,2018,24.08781
 turkmenistan,2018,2.2146
-russia,2018,0
 uzbekistan,2018,2.09827
 other_cis,2018,0.01117
 total_cis,2018,30.49758
@@ -3163,7 +3114,6 @@ azerbaijan,2019,0.86178
 kazakhstan,2019,1.20586
 russian_federation,2019,24.44497
 turkmenistan,2019,2.27387
-russia,2019,0
 uzbekistan,2019,2.0685
 other_cis,2019,0.0114
 total_cis,2019,30.86637
@@ -3227,7 +3177,6 @@ azerbaijan,2020,0.93113
 kazakhstan,2020,1.10211
 russian_federation,2020,22.98408
 turkmenistan,2020,2.37653
-russia,2020,0
 uzbekistan,2020,1.69564
 other_cis,2020,0.01137
 total_cis,2020,29.10087
@@ -3291,7 +3240,6 @@ azerbaijan,2021,1.1451
 kazakhstan,2021,0.96104
 russian_federation,2021,25.27621
 turkmenistan,2021,2.85421
-russia,2021,0
 uzbekistan,2021,1.83308
 other_cis,2021,0.01187
 total_cis,2021,32.0815
@@ -3355,7 +3303,6 @@ azerbaijan,2022,1.22883
 kazakhstan,2022,0.99362
 russian_federation,2022,22.26126
 turkmenistan,2022,2.81765
-russia,2022,0
 uzbekistan,2022,1.76072
 other_cis,2022,0.01059
 total_cis,2022,29.07268
@@ -3419,7 +3366,6 @@ azerbaijan,2023,1.28011
 kazakhstan,2023,1.0633
 russian_federation,2023,21.10976
 turkmenistan,2023,2.74674
-russia,2023,0
 uzbekistan,2023,1.59146
 other_cis,2023,0.01023
 total_cis,2023,27.80161
@@ -3483,7 +3429,6 @@ azerbaijan,2024,1.35936
 kazakhstan,2024,1.07026
 russian_federation,2024,22.6751
 turkmenistan,2024,2.64468
-russia,2024,0
 uzbekistan,2024,1.51948
 other_cis,2024,0.01058
 total_cis,2024,29.27945

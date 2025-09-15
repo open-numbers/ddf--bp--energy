@@ -35,7 +35,6 @@ ukraine,2000,0
 united_kingdom,2000,2
 other_europe,2000,2
 total_europe,2000,88.494
-russian_federation,2000,0
 kazakhstan,2000,0
 other_cis,2000,0
 total_cis,2000,0
@@ -102,7 +101,6 @@ ukraine,2001,0
 united_kingdom,2001,3
 other_europe,2001,3.26
 total_europe,2001,108.803
-russian_federation,2001,0
 kazakhstan,2001,0
 other_cis,2001,0
 total_cis,2001,0
@@ -169,7 +167,6 @@ ukraine,2002,0
 united_kingdom,2002,4
 other_europe,2002,4.793
 total_europe,2002,130.565
-russian_federation,2002,0
 kazakhstan,2002,0
 other_cis,2002,0
 total_cis,2002,0
@@ -236,7 +233,6 @@ ukraine,2003,0
 united_kingdom,2003,6
 other_europe,2003,17.47
 total_europe,2003,630.146
-russian_federation,2003,0
 kazakhstan,2003,0
 other_cis,2003,0
 total_cis,2003,0
@@ -303,7 +299,6 @@ ukraine,2004,0
 united_kingdom,2004,8
 other_europe,2004,28.961
 total_europe,2004,1343.687
-russian_federation,2004,0
 kazakhstan,2004,0
 other_cis,2004,0
 total_cis,2004,0
@@ -370,7 +365,6 @@ ukraine,2005,0
 united_kingdom,2005,11
 other_europe,2005,29.856
 total_europe,2005,2327.966
-russian_federation,2005,0
 kazakhstan,2005,0
 other_cis,2005,0
 total_cis,2005,0
@@ -437,7 +431,6 @@ ukraine,2006,0
 united_kingdom,2006,14
 other_europe,2006,31.222
 total_europe,2006,3292.636
-russian_federation,2006,0
 kazakhstan,2006,0
 other_cis,2006,0
 total_cis,2006,0
@@ -504,7 +497,6 @@ ukraine,2007,0
 united_kingdom,2007,18
 other_europe,2007,31.46
 total_europe,2007,5067.378
-russian_federation,2007,0
 kazakhstan,2007,0
 other_cis,2007,0.1
 total_cis,2007,0.1
@@ -571,7 +563,6 @@ ukraine,2008,0
 united_kingdom,2008,23
 other_europe,2008,43.888
 total_europe,2008,10547.831
-russian_federation,2008,0
 kazakhstan,2008,0
 other_cis,2008,0.1
 total_cis,2008,0.1
@@ -638,7 +629,6 @@ ukraine,2009,0
 united_kingdom,2009,27
 other_europe,2009,51.141
 total_europe,2009,17152.952
-russian_federation,2009,0
 kazakhstan,2009,0
 other_cis,2009,0.1
 total_cis,2009,0.1

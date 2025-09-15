@@ -193,6 +193,11 @@ for sheet_name in sheets:
             # Convert to DDF datapoint format
             dp = to_ddf_datapoint(df, indicator_name)
 
+            # remove zeros for russia
+            dp[concept_id] = pd.to_numeric(dp[concept_id], errors="coerce")
+            mask = dp["geo"].isin(["russian_federation", "russia"]) & (dp[concept_id] == 0)
+            dp = dp.loc[~mask].copy()
+
             # Format and save
             if not dp.empty:
                 dp[concept_id] = dp[concept_id].map(format_float_digits)
@@ -217,6 +222,11 @@ for sheet_name in sheets:
 
         # Convert to DDF datapoint format
         dp = to_ddf_datapoint(df, indicator_name)
+
+        # remove zeros for russia
+        dp[concept_id] = pd.to_numeric(dp[concept_id], errors="coerce")
+        mask = dp["geo"].isin(["russian_federation", "russia"]) & (dp[concept_id] == 0)
+        dp = dp.loc[~mask].copy()
 
         # Format and save
         if not dp.empty:
