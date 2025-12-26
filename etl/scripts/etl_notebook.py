@@ -70,7 +70,6 @@ config_dict.pop("Gas - H2 Production Capacity")
 geo_name_map = {
     "US": "United States",
     "Viet Nam": "Vietnam",
-    "USSR": "Russia",
     "India2": "India",
     "DR Congo": "Democratic Republic of Congo",
     "Brazil1": "Brazil",
@@ -154,6 +153,21 @@ def to_ddf_datapoint(df: pd.DataFrame, indicator_name: str):
     """convert a preprocessed dataframe to ddf datapoint format."""
     concept_id = to_concept_id(indicator_name)
     df_long = df.melt(id_vars=["geo", "geo_name"], var_name="year", value_name=concept_id)
+
+    numeric_years = pd.to_numeric(df_long["year"], errors="coerce")
+    invalid_mask = numeric_years.round() != numeric_years
+
+    if invalid_mask.any():
+        invalid_year_values = df_long.loc[invalid_mask, "year"].unique()
+        print(
+            f"Warning: Invalid year values found for indicator '{indicator_name}': {list(invalid_year_values)}. These rows will be dropped."
+        )
+        df_long = df_long.loc[~invalid_mask].copy()
+
+    # Convert year to integer
+    if not df_long.empty:
+        df_long["year"] = df_long["year"].astype(int)
+
     return df_long[["geo", "year", concept_id]]
 
 
@@ -193,11 +207,6 @@ for sheet_name in sheets:
             # Convert to DDF datapoint format
             dp = to_ddf_datapoint(df, indicator_name)
 
-            # remove zeros for russia
-            dp[concept_id] = pd.to_numeric(dp[concept_id], errors="coerce")
-            mask = dp["geo"].isin(["russian_federation", "russia"]) & (dp[concept_id] == 0)
-            dp = dp.loc[~mask].copy()
-
             # Format and save
             if not dp.empty:
                 dp[concept_id] = dp[concept_id].map(format_float_digits)
@@ -222,11 +231,6 @@ for sheet_name in sheets:
 
         # Convert to DDF datapoint format
         dp = to_ddf_datapoint(df, indicator_name)
-
-        # remove zeros for russia
-        dp[concept_id] = pd.to_numeric(dp[concept_id], errors="coerce")
-        mask = dp["geo"].isin(["russian_federation", "russia"]) & (dp[concept_id] == 0)
-        dp = dp.loc[~mask].copy()
 
         # Format and save
         if not dp.empty:
